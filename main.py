@@ -1,12 +1,14 @@
+import os
 from fastapi import FastAPI
+from data.employee_reader import read_employees
 
 app = FastAPI()
 
 
-EMPLOYEES = [
-    {"id": 1, "name": "Bogdan", "happy": 5},
-    {"id": 2, "name": "Knut-Eric", "happy": 7},
-]
+
+print("Current working directory:", os.getcwd())
+
+EMPLOYEES = read_employees("org_health_survey.csv")
 
 @app.get("/")
 async def root():
@@ -24,6 +26,7 @@ async def get_employees():
 
 @app.get("/employees/happy/{level}")
 async def get_employee(level: int):
+
     for employee in EMPLOYEES:
         if level > employee["happy"]:
             return employee
