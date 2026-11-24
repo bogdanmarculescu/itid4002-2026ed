@@ -4,6 +4,8 @@
     python -m venv .venv
     source .venv/bin/activate      # Windows: .venv\Scripts\activate
     pip install -r requirements.txt
+
+    .venv/bin/python -m uvicorn --version.venv/bin/python -m pip install -r requirements.txt 
  
 ## Run
     uvicorn main:app --reload

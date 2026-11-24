@@ -2,7 +2,9 @@ import csv
 from pathlib import Path
 from model.employee import Employee
 
-def read_employees(filename: str) -> list[Employee]:
+def read_employees(
+        filename: str = "org_health_survey.csv"
+    ) -> list[Employee]:
     employees = []
 
     data_dir = Path(__file__).resolve().parent
