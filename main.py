@@ -1,12 +1,10 @@
 from fastapi import FastAPI
+from data.employee_data_reader import read_employee_data
 
 app = FastAPI()
 
 
-EMPLOYEES = [
-    {"id": 1, "name": "Bogdan", "happy": 5},
-    {"id": 2, "name": "Knut-Eric", "happy": 7},
-]
+EMPLOYEES = read_employee_data()
 
 @app.get("/")
 async def root():
@@ -24,6 +22,9 @@ async def get_employees():
 
 @app.get("/employees/happy/{level}")
 async def get_employee(level: int):
+    result = []
     for employee in EMPLOYEES:
         if level > employee["happy"]:
-            return employee
+            result.append(employee)
+    return result
+

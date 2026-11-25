@@ -1,0 +1,625 @@
+employee_id,division,tenure_years,role_type,role_level,shift,union_member,A1_free_to_decide,A2_manager_gives_choice,A3_pressured_rev,A4_feel_capable,A5_have_skills,A6_rarely_succeed_rev,A7_feel_i_belong,A8_colleagues_care,A9_feel_isolated_rev,A10_work_meaningful,A11_work_because_have_to_rev,B1_purposeful_work_life,B2_competent_capable,B3_engaged_daily_tasks,B4_relationships_rewarding,B5_optimistic_future,B6_feel_positive_energized,B7_feel_stressed_rev,B8_feel_content_satisfied,B9_feel_exhausted_rev,B10_sense_of_belonging,B11_feel_job_secure,C1_clear_targets,C2_useful_feedback,C3_poor_perf_addressed,C4_recognized_rewarded,C5_workload_manageable,C6_training_access,C7_career_path_visible,E1_physically_safe,E2_psych_safe_speak_up,E3_manager_takes_safety_seriously
+EMP0001,Division 1,10.4,Blue collar,Senior operator,Night,No,3,2,2,3,3,3,2,2,4,3,3,3,2,3,3,4,1,4,2,4,3,4,3,2,3,2,1,1,2,1,2,2
+EMP0002,Division 1,6.9,Blue collar,Operator,Night,Yes,1,2,4,2,2,2,2,3,3,3,5,4,2,2,2,3,1,4,2,3,2,2,3,2,3,2,2,3,3,4,2,3
+EMP0003,Division 1,6.4,Blue collar,Operator,Afternoon,No,1,2,4,2,3,3,3,2,4,3,3,1,4,2,3,3,2,4,3,4,3,3,3,2,2,3,4,5,3,4,3,2
+EMP0004,Division 1,6.4,Blue collar,Operator,Morning,Yes,2,3,4,3,3,3,3,2,4,2,5,5,4,4,3,2,2,4,1,3,3,3,1,2,3,2,2,3,2,4,2,3
+EMP0005,Division 1,19.0,Blue collar,Operator,Afternoon,Yes,2,1,4,3,3,3,2,3,4,2,4,4,1,3,3,3,2,3,3,4,3,1,3,2,3,3,2,2,1,2,3,3
+EMP0006,Division 1,12.3,Blue collar,Senior operator,Afternoon,Yes,2,2,5,2,2,3,2,2,3,1,3,3,4,2,4,5,3,4,2,4,4,2,1,2,1,3,2,3,3,3,2,2
+EMP0007,Division 1,5.4,Blue collar,Operator,Morning,Yes,3,2,4,1,2,4,1,2,3,3,5,3,4,5,3,2,1,2,2,5,3,3,3,4,2,3,2,1,3,3,2,2
+EMP0008,Division 1,10.7,Blue collar,Operator,Night,Yes,2,2,4,3,2,3,4,3,4,3,4,4,4,4,3,4,3,4,2,4,4,1,3,2,3,1,2,1,2,4,2,3
+EMP0009,Division 1,8.9,Blue collar,Team lead,Afternoon,Yes,1,1,5,1,2,3,1,3,3,2,3,4,3,3,4,3,2,3,2,4,3,1,1,3,3,2,2,2,2,2,2,2
+EMP0010,Division 1,1.4,Blue collar,Team lead,Morning,No,4,2,4,2,3,2,3,2,3,2,4,3,2,3,3,2,3,4,2,4,4,1,3,2,3,4,2,3,2,4,2,3
+EMP0011,Division 1,3.5,Blue collar,Operator,Morning,Yes,1,3,3,2,3,4,2,1,4,2,5,3,3,3,3,5,3,3,2,3,3,3,3,1,2,2,2,3,3,3,3,2
+EMP0012,Division 1,9.3,Blue collar,Operator,Night,Yes,3,3,4,2,2,3,2,2,4,3,3,3,2,3,4,3,3,3,2,3,3,2,2,2,3,4,2,3,3,2,2,3
+EMP0013,Division 1,17.9,Blue collar,Senior operator,Morning,Yes,2,2,4,3,3,3,1,3,4,2,4,1,3,1,2,4,2,4,1,3,3,2,3,2,3,3,2,3,2,3,2,2
+EMP0014,Division 1,6.5,Blue collar,Operator,Night,No,2,1,5,2,3,4,4,2,2,3,5,3,3,5,2,3,2,3,2,4,1,2,1,2,3,3,1,1,3,4,3,2
+EMP0015,Division 1,5.1,White collar,Engineer,Afternoon,Yes,2,2,5,2,4,3,2,2,3,2,3,1,2,2,1,2,2,2,2,3,2,1,3,2,3,2,4,2,2,2,2,3
+EMP0016,Division 1,8.2,Blue collar,Operator,Afternoon,Yes,2,2,3,3,3,3,2,2,4,2,4,3,2,3,2,3,2,4,2,3,3,2,2,2,2,2,3,3,1,4,3,3
+EMP0017,Division 1,4.9,Blue collar,Senior operator,Afternoon,Yes,2,2,4,2,2,3,3,1,3,1,4,2,3,3,4,4,1,3,4,4,3,1,2,2,1,2,1,3,1,3,2,2
+EMP0018,Division 1,6.2,White collar,Specialist,Night,No,2,2,3,4,2,2,2,2,3,2,3,1,5,5,1,3,1,4,2,4,2,3,3,2,2,2,2,3,3,3,3,3
+EMP0019,Division 1,7.5,White collar,Engineer,Morning,Yes,3,1,3,2,2,3,2,3,4,2,4,2,4,3,2,3,2,3,1,4,3,4,4,3,2,2,1,3,3,2,3,1
+EMP0020,Division 1,3.3,Blue collar,Operator,Night,Yes,2,1,3,3,3,3,2,1,4,3,5,3,4,4,3,4,2,5,2,3,3,1,3,3,2,1,2,3,3,2,3,4
+EMP0021,Division 1,12.7,Blue collar,Operator,Afternoon,No,3,2,4,3,1,2,2,2,3,1,3,3,4,3,1,3,2,3,2,3,3,2,4,2,4,1,1,1,2,3,1,2
+EMP0022,Division 1,2.9,White collar,Specialist,Morning,No,2,2,4,4,3,3,3,1,4,4,3,2,3,2,2,3,3,5,3,4,3,2,1,3,3,3,2,3,3,2,3,1
+EMP0023,Division 1,2.6,White collar,Engineer,Night,Yes,2,2,4,2,2,4,2,3,5,2,4,1,3,3,4,4,3,4,3,4,3,2,3,2,1,1,1,2,2,3,3,3
+EMP0024,Division 1,8.6,Blue collar,Operator,Night,No,1,1,4,2,2,4,1,3,5,2,3,3,4,3,5,3,2,4,3,4,3,3,2,1,2,3,2,3,2,4,2,2
+EMP0025,Division 1,12.1,Blue collar,Senior operator,Night,Yes,2,2,4,3,2,4,2,2,3,2,4,2,2,2,3,3,3,3,3,5,2,2,2,4,2,1,3,1,2,3,2,3
+EMP0026,Division 1,8.5,Blue collar,Operator,Night,Yes,1,3,4,3,2,3,2,2,4,2,4,3,3,3,2,3,2,3,2,3,4,2,1,4,2,3,2,4,1,3,2,2
+EMP0027,Division 1,7.0,Blue collar,Senior operator,Night,Yes,3,2,5,3,3,4,1,2,4,2,4,3,3,3,2,3,2,3,4,4,3,5,3,3,3,2,2,1,3,3,1,1
+EMP0028,Division 1,6.1,Blue collar,Operator,Night,Yes,2,2,5,2,4,4,2,1,4,3,4,3,3,3,3,4,3,4,2,3,2,2,3,2,2,3,1,4,3,4,3,3
+EMP0029,Division 1,5.4,Blue collar,Operator,Night,Yes,2,2,4,4,2,4,2,4,3,1,4,4,2,3,3,2,2,3,2,5,3,4,3,2,3,2,2,4,4,4,4,3
+EMP0030,Division 1,14.4,Blue collar,Operator,Night,No,2,1,3,2,2,4,3,2,4,3,5,3,3,2,5,2,2,4,3,3,2,3,3,2,2,1,2,1,2,3,2,3
+EMP0031,Division 1,9.4,White collar,Specialist,Night,Yes,2,1,4,3,2,3,2,3,5,2,4,3,2,4,4,2,3,2,3,4,2,2,2,3,2,2,3,3,1,3,2,3
+EMP0032,Division 1,5.8,Blue collar,Team lead,Afternoon,Yes,4,1,4,2,3,4,3,2,4,2,4,3,2,2,3,2,3,4,1,3,2,2,3,2,2,2,1,2,2,3,2,1
+EMP0033,Division 1,4.6,Blue collar,Senior operator,Night,Yes,2,2,4,2,2,4,2,3,3,2,3,3,2,1,3,2,1,4,2,4,3,2,3,3,2,2,1,2,2,4,1,3
+EMP0034,Division 1,11.2,Blue collar,Operator,Morning,No,2,2,3,2,3,3,2,1,3,1,5,1,4,3,6,3,2,3,3,5,3,1,2,2,1,3,1,2,2,4,2,2
+EMP0035,Division 1,14.2,White collar,Specialist,Night,Yes,2,3,3,1,3,3,2,3,4,2,4,4,3,2,3,3,2,4,1,3,2,2,2,2,3,2,2,3,2,4,2,4
+EMP0036,Division 1,13.5,Blue collar,Operator,Night,Yes,1,2,3,3,2,4,3,2,3,2,4,4,2,3,2,1,2,4,3,5,3,2,2,2,2,1,2,3,2,3,2,2
+EMP0037,Division 1,4.0,Blue collar,Operator,Morning,Yes,2,2,5,1,3,3,1,2,4,1,5,5,3,5,3,1,3,5,2,4,2,3,3,2,2,2,2,1,3,2,3,2
+EMP0038,Division 1,6.1,Blue collar,Team lead,Night,Yes,2,2,4,2,4,4,3,3,3,3,4,5,3,5,2,2,2,3,3,4,4,4,1,3,3,2,2,3,2,3,1,2
+EMP0039,Division 1,5.4,Blue collar,Operator,Morning,No,1,3,3,2,2,3,2,2,3,3,3,2,4,3,1,3,1,5,2,4,1,2,3,1,3,2,1,2,1,3,3,2
+EMP0040,Division 1,6.7,Blue collar,Operator,Morning,No,2,1,4,1,2,3,2,1,5,1,4,3,2,2,3,3,2,2,3,4,3,3,2,2,4,4,2,1,2,4,3,2
+EMP0041,Division 1,12.6,Blue collar,Operator,Night,Yes,2,1,3,3,2,3,2,3,2,1,4,5,4,3,5,2,3,4,2,3,4,1,2,3,3,3,3,2,2,4,2,3
+EMP0042,Division 1,16.9,Blue collar,Operator,Morning,No,1,2,4,1,2,4,3,1,4,2,4,3,3,3,1,4,2,3,3,3,3,3,1,2,2,3,4,4,2,3,2,1
+EMP0043,Division 1,9.6,Blue collar,Operator,Night,Yes,2,1,4,2,1,3,2,3,3,2,4,3,2,3,3,2,2,5,4,5,4,1,2,3,2,3,2,2,2,4,2,3
+EMP0044,Division 1,4.7,Blue collar,Senior operator,Night,No,1,4,5,3,2,4,2,3,5,2,5,2,4,2,2,3,2,4,3,4,1,3,2,1,2,2,2,1,2,3,2,3
+EMP0045,Division 1,7.4,Blue collar,Operator,Afternoon,Yes,2,2,4,3,3,4,1,2,3,2,4,3,3,3,3,3,3,4,3,4,2,2,2,3,2,2,2,3,2,4,1,4
+EMP0046,Division 1,18.8,Blue collar,Team lead,Morning,Yes,2,2,2,2,4,3,3,3,3,2,4,5,2,2,3,2,3,4,4,3,3,2,4,1,3,2,2,2,2,3,2,2
+EMP0047,Division 1,8.0,Blue collar,Senior operator,Morning,Yes,2,2,4,4,2,4,2,3,2,1,4,4,1,4,2,2,3,4,3,3,4,2,3,2,1,2,3,3,2,2,2,2
+EMP0048,Division 1,6.1,Blue collar,Operator,Afternoon,Yes,2,2,5,3,2,4,3,2,3,1,2,2,3,2,2,4,2,3,2,5,2,1,4,3,3,1,2,2,2,3,2,2
+EMP0049,Division 1,6.5,White collar,Engineer,Day (office),Yes,1,2,3,3,4,4,1,3,3,1,3,3,3,3,2,3,2,3,2,3,2,1,2,2,3,2,2,4,2,3,2,3
+EMP0050,Division 1,9.6,Blue collar,Operator,Afternoon,Yes,1,2,3,2,2,3,1,1,5,3,5,2,2,2,4,4,2,4,3,4,3,3,2,3,3,2,3,2,1,2,3,2
+EMP0051,Division 1,4.1,Blue collar,Senior operator,Morning,Yes,2,3,3,3,1,5,3,2,4,2,4,2,2,4,4,3,2,4,3,4,2,2,2,1,2,2,2,1,1,4,2,3
+EMP0052,Division 1,5.3,White collar,Engineer,Afternoon,No,2,2,4,4,2,3,2,2,4,3,3,1,4,2,3,1,3,4,1,4,3,2,2,2,3,2,3,2,1,4,3,3
+EMP0053,Division 1,13.3,Blue collar,Senior operator,Afternoon,Yes,2,3,3,2,2,3,3,3,4,1,5,3,1,3,4,5,2,5,1,4,1,3,4,2,4,2,2,1,2,2,2,3
+EMP0054,Division 1,9.4,Blue collar,Operator,Night,No,2,4,3,3,1,3,1,3,5,2,4,4,3,4,3,3,3,2,2,3,3,2,1,2,2,3,3,2,3,4,2,3
+EMP0055,Division 1,8.1,Blue collar,Senior operator,Morning,No,2,2,4,3,2,3,1,3,4,2,4,3,3,3,3,3,1,4,3,4,2,2,3,3,2,2,1,4,2,3,2,1
+EMP0056,Division 1,13.7,Blue collar,Operator,Night,Yes,2,2,5,2,3,3,3,2,4,2,5,4,3,2,3,3,1,5,3,4,2,4,2,3,3,3,1,3,3,3,1,2
+EMP0057,Division 1,4.5,White collar,Engineer,Afternoon,No,2,2,5,1,2,4,3,2,4,1,4,4,3,3,3,4,4,4,2,3,3,3,2,2,2,3,3,4,2,3,2,2
+EMP0058,Division 1,6.0,Blue collar,Team lead,Day (office),Yes,2,3,4,3,3,2,1,1,4,3,3,2,3,2,2,2,2,2,2,5,3,2,2,3,2,2,2,3,2,3,2,1
+EMP0059,Division 1,9.2,Blue collar,Senior operator,Morning,No,2,2,3,3,3,4,1,1,4,3,3,2,2,3,3,3,3,3,3,4,3,2,3,2,4,3,3,3,2,4,2,2
+EMP0060,Division 1,9.0,Blue collar,Operator,Afternoon,Yes,2,2,4,2,2,4,2,4,4,2,4,2,3,3,4,1,3,4,1,3,4,3,2,3,2,1,2,2,2,2,1,2
+EMP0061,Division 1,2.4,Blue collar,Team lead,Day (office),No,2,1,4,3,3,4,2,1,5,2,2,1,3,4,3,4,1,4,3,4,1,2,3,3,4,2,2,3,2,4,3,2
+EMP0062,Division 1,5.6,Blue collar,Operator,Morning,No,1,2,5,3,3,3,2,2,5,2,5,3,3,3,3,2,3,4,3,4,3,2,3,1,2,2,1,2,2,4,2,3
+EMP0063,Division 1,6.8,Blue collar,Team lead,Day (office),No,3,2,4,1,2,4,1,3,4,1,4,1,3,3,3,3,3,3,3,3,2,4,1,4,2,3,2,3,3,4,2,2
+EMP0064,Division 1,9.9,Blue collar,Senior operator,Night,No,2,4,5,2,4,3,2,2,4,3,5,3,2,4,4,4,3,4,2,3,4,2,3,2,3,2,3,2,2,3,2,3
+EMP0065,Division 1,9.0,White collar,Engineer,Morning,Yes,4,3,3,2,3,4,1,3,4,1,4,3,2,3,3,4,1,3,2,4,3,2,1,3,3,1,2,2,2,2,3,2
+EMP0066,Division 1,7.2,Blue collar,Operator,Morning,Yes,1,1,3,2,3,3,1,3,4,2,4,3,2,3,2,4,3,4,2,3,3,2,1,2,3,3,3,1,1,4,3,2
+EMP0067,Division 1,1.4,Blue collar,Operator,Night,No,2,2,3,2,3,3,2,3,4,2,4,4,3,4,3,4,2,4,2,5,4,3,2,3,2,3,3,3,3,2,3,3
+EMP0068,Division 1,7.4,Blue collar,Operator,Morning,Yes,2,2,5,2,1,4,2,2,4,3,4,3,4,3,1,2,3,3,2,4,4,3,2,3,3,2,1,3,1,3,1,4
+EMP0069,Division 1,7.9,Blue collar,Senior operator,Afternoon,Yes,3,3,3,4,3,4,3,3,4,3,5,4,3,1,3,3,2,5,3,4,3,3,3,3,1,3,3,1,1,4,2,2
+EMP0070,Division 1,28.7,Blue collar,Operator,Morning,No,2,2,4,2,3,3,1,2,3,1,5,3,2,2,1,1,3,3,1,4,3,1,2,2,3,1,2,1,2,3,2,3
+EMP0071,Division 1,6.6,Blue collar,Operator,Afternoon,No,1,2,5,2,1,4,2,3,4,2,3,2,3,4,1,2,2,4,2,3,3,3,3,3,4,1,2,1,1,4,2,3
+EMP0072,Division 1,9.2,Blue collar,Senior operator,Morning,No,3,2,5,2,2,3,4,2,3,2,4,3,4,3,1,4,1,3,2,2,3,2,2,3,1,1,4,2,3,3,2,1
+EMP0073,Division 1,15.1,Blue collar,Team lead,Night,Yes,2,2,4,3,3,3,2,2,4,2,5,1,2,3,4,3,1,5,2,3,3,2,3,2,2,2,3,1,1,2,2,4
+EMP0074,Division 1,12.2,Blue collar,Operator,Day (office),Yes,3,3,4,3,4,4,3,3,2,2,4,2,5,4,3,1,2,4,2,5,1,3,3,2,2,3,2,4,3,3,2,3
+EMP0075,Division 1,17.3,White collar,Engineer,Day (office),Yes,3,2,4,2,3,3,3,3,3,1,4,3,3,3,2,5,2,3,3,5,4,3,3,2,1,1,2,3,3,3,2,1
+EMP0076,Division 1,2.4,Blue collar,Operator,Night,Yes,2,2,5,2,2,3,3,4,4,2,4,3,4,1,3,3,2,4,2,3,3,3,2,4,1,2,2,3,2,5,1,3
+EMP0077,Division 1,3.5,Blue collar,Operator,Morning,Yes,2,3,3,2,4,4,2,3,3,2,3,2,4,2,4,4,2,5,2,4,2,1,2,2,2,2,3,1,1,3,1,2
+EMP0078,Division 1,5.0,Blue collar,Team lead,Night,Yes,2,2,4,2,3,4,3,3,5,2,3,2,4,3,3,2,4,3,2,4,2,2,2,3,2,2,2,3,1,3,3,2
+EMP0079,Division 1,2.1,White collar,Engineer,Morning,No,2,1,4,3,2,3,3,1,4,2,5,1,3,3,3,3,2,3,2,4,1,2,1,2,3,2,4,3,2,3,3,3
+EMP0080,Division 1,7.9,Blue collar,Senior operator,Morning,Yes,3,2,3,2,2,4,3,4,4,2,4,2,4,4,3,3,2,4,3,3,2,3,2,2,1,2,1,2,2,3,3,3
+EMP0081,Division 1,3.8,Blue collar,Operator,Morning,No,2,2,5,3,1,5,1,3,4,2,4,5,3,2,4,2,2,4,2,3,3,3,2,5,3,3,2,1,3,3,3,2
+EMP0082,Division 1,18.7,White collar,Specialist,Afternoon,Yes,2,2,5,3,2,3,1,2,4,3,4,3,4,3,2,3,2,4,3,5,4,2,3,3,3,3,2,2,2,3,1,2
+EMP0083,Division 1,4.2,White collar,Specialist,Night,No,1,2,3,3,3,4,1,3,5,2,4,4,4,2,3,2,2,4,4,2,3,2,2,3,4,2,2,2,2,4,1,3
+EMP0084,Division 1,6.0,White collar,Supervisor,Night,No,1,2,3,2,2,3,2,1,4,1,4,2,2,2,3,3,1,5,3,4,3,4,3,3,3,3,2,2,1,3,1,3
+EMP0085,Division 1,12.6,Blue collar,Operator,Afternoon,Yes,2,2,4,2,3,3,3,3,4,1,4,1,4,1,1,4,2,3,2,4,2,2,2,3,3,3,2,2,3,4,2,2
+EMP0086,Division 1,2.8,Blue collar,Operator,Morning,No,1,2,4,4,2,3,1,1,5,1,4,2,3,3,4,2,2,3,3,3,2,1,2,3,3,3,3,3,2,3,2,4
+EMP0087,Division 1,2.0,Blue collar,Operator,Day (office),No,4,2,5,2,2,3,3,2,2,3,3,3,3,3,5,5,1,4,1,4,2,2,2,3,2,2,3,1,2,5,1,2
+EMP0088,Division 1,8.6,White collar,Supervisor,Afternoon,Yes,1,3,4,3,3,2,2,3,5,3,2,1,3,3,2,2,4,3,2,3,2,2,3,2,2,2,2,4,1,3,3,3
+EMP0089,Division 1,9.0,Blue collar,Team lead,Afternoon,Yes,2,1,4,3,3,3,2,3,4,2,4,2,3,5,4,3,1,3,2,4,3,2,1,3,3,2,2,3,1,4,3,3
+EMP0090,Division 1,12.4,Blue collar,Senior operator,Morning,Yes,3,2,4,2,1,3,2,2,4,2,4,2,4,5,2,2,2,5,3,4,3,3,2,2,1,2,2,3,3,3,2,3
+EMP0091,Division 1,10.6,Blue collar,Senior operator,Night,No,1,3,4,2,2,2,1,2,3,2,5,2,2,2,3,3,2,3,2,5,3,1,2,3,2,2,3,2,3,3,1,2
+EMP0092,Division 1,9.2,White collar,Specialist,Night,No,1,2,5,1,4,2,2,1,5,3,5,1,1,1,4,4,2,4,2,3,2,2,3,1,1,2,2,3,3,3,3,1
+EMP0093,Division 1,4.6,Blue collar,Operator,Morning,No,2,3,4,3,2,2,4,2,3,3,4,3,1,3,2,2,1,4,1,4,3,2,3,3,3,4,2,2,2,2,2,2
+EMP0094,Division 1,8.8,Blue collar,Team lead,Morning,Yes,1,2,5,3,3,4,2,3,5,2,5,3,4,3,3,2,3,5,1,4,3,2,2,1,2,3,2,2,1,3,4,2
+EMP0095,Division 1,9.2,Blue collar,Operator,Night,No,1,1,4,2,2,4,1,2,4,3,4,4,2,2,1,3,4,2,2,4,2,4,1,2,3,2,3,3,3,3,2,2
+EMP0096,Division 1,4.5,Blue collar,Operator,Night,Yes,2,2,4,2,4,4,3,2,3,2,3,2,3,2,2,3,2,4,2,3,3,4,1,1,2,2,2,4,2,3,2,3
+EMP0097,Division 1,21.8,Blue collar,Operator,Morning,Yes,2,2,4,3,3,3,1,2,3,2,4,4,3,4,1,3,3,3,3,5,3,1,2,3,1,3,2,2,2,4,2,2
+EMP0098,Division 1,10.3,Blue collar,Operator,Day (office),Yes,3,3,4,3,3,3,1,2,5,3,4,4,2,3,3,2,2,4,2,4,2,1,2,2,1,3,1,3,2,3,2,2
+EMP0099,Division 1,3.6,Blue collar,Operator,Morning,Yes,1,3,3,3,2,4,2,2,2,2,4,3,4,3,4,3,3,3,3,3,2,2,2,2,2,3,2,2,1,2,1,3
+EMP0100,Division 1,12.4,Blue collar,Senior operator,Afternoon,Yes,1,2,5,1,3,3,2,2,5,2,3,2,3,2,3,4,4,5,2,4,3,2,2,3,2,2,4,3,3,5,1,3
+EMP0101,Division 1,13.7,Blue collar,Operator,Day (office),Yes,2,3,5,2,3,5,1,3,5,2,4,3,3,3,3,1,2,3,2,5,2,1,3,2,2,2,1,2,1,3,3,2
+EMP0102,Division 1,9.9,Blue collar,Senior operator,Afternoon,No,2,2,4,3,2,3,2,1,3,1,4,2,3,3,3,2,1,2,1,4,2,2,1,1,3,2,3,3,2,4,2,3
+EMP0103,Division 1,6.4,Blue collar,Operator,Afternoon,Yes,3,1,5,3,2,3,3,2,4,2,5,2,4,2,4,1,3,3,2,4,3,2,3,3,3,2,2,2,3,2,2,4
+EMP0104,Division 1,4.3,Blue collar,Operator,Afternoon,Yes,3,2,4,2,4,3,3,2,4,2,4,4,2,4,3,3,2,4,2,5,3,2,3,1,4,1,2,2,2,3,2,2
+EMP0105,Division 1,7.2,Blue collar,Operator,Morning,Yes,3,3,5,4,2,3,3,2,3,1,4,3,4,2,1,4,3,5,3,3,4,2,3,2,2,2,3,4,2,3,2,2
+EMP0106,Division 1,9.5,Blue collar,Operator,Day (office),Yes,2,3,3,1,4,2,4,2,5,2,3,4,4,3,4,3,2,3,3,5,3,2,3,2,2,2,2,2,3,1,3,3
+EMP0107,Division 1,7.7,Blue collar,Senior operator,Afternoon,Yes,3,3,4,2,3,4,3,3,5,2,3,3,2,3,3,2,2,3,1,4,4,2,3,1,3,3,2,3,1,3,2,4
+EMP0108,Division 1,17.8,Blue collar,Operator,Night,Yes,2,2,4,2,3,4,2,4,4,3,5,3,3,3,2,2,3,4,2,3,3,3,2,2,2,1,2,2,2,3,1,2
+EMP0109,Division 1,11.3,White collar,Specialist,Morning,Yes,2,2,3,2,3,3,3,2,3,1,5,2,3,3,3,3,2,3,2,3,2,1,2,1,2,2,2,3,2,3,3,2
+EMP0110,Division 1,4.0,Blue collar,Operator,Morning,Yes,1,2,5,2,2,3,3,2,4,1,4,2,4,4,1,3,1,4,3,3,3,2,1,2,2,3,3,4,1,3,3,2
+EMP0111,Division 1,3.3,White collar,Specialist,Morning,Yes,2,2,5,3,3,3,3,2,3,2,5,4,2,2,2,4,3,4,3,3,3,2,2,1,4,2,2,2,2,3,3,3
+EMP0112,Division 1,10.4,Blue collar,Team lead,Night,Yes,2,2,5,3,3,4,2,2,3,1,4,5,4,4,3,2,3,4,1,4,3,2,2,2,3,2,1,1,3,3,3,2
+EMP0113,Division 1,6.5,Blue collar,Senior operator,Afternoon,Yes,3,2,5,3,3,3,1,3,4,2,4,3,1,3,3,3,2,3,3,3,2,3,3,3,3,3,1,2,3,3,3,2
+EMP0114,Division 1,11.9,White collar,Engineer,Night,No,2,3,4,3,3,4,1,2,4,1,4,2,3,2,3,3,3,3,2,4,3,4,2,3,4,1,1,4,3,3,1,3
+EMP0115,Division 1,10.3,Blue collar,Operator,Afternoon,Yes,2,2,4,2,4,3,2,1,4,3,3,2,3,4,3,2,2,4,2,3,3,3,2,2,3,2,2,2,1,3,4,3
+EMP0116,Division 1,7.2,Blue collar,Operator,Day (office),Yes,2,1,3,1,2,3,2,2,4,2,5,2,2,3,2,3,2,3,2,4,3,3,2,2,2,2,3,4,3,3,3,3
+EMP0117,Division 1,4.0,Blue collar,Senior operator,Morning,Yes,2,2,5,2,2,4,2,1,4,2,3,4,2,1,3,3,3,3,3,4,3,2,4,2,3,1,1,2,2,4,3,2
+EMP0118,Division 1,2.2,Blue collar,Operator,Night,Yes,2,2,4,3,3,3,3,3,4,3,5,2,3,3,3,4,2,5,1,3,3,2,2,2,3,2,3,2,3,3,2,3
+EMP0119,Division 1,8.7,White collar,Specialist,Night,Yes,3,2,5,3,3,3,4,4,5,1,2,2,3,4,1,3,1,4,3,4,3,2,2,2,3,2,2,3,2,3,1,2
+EMP0120,Division 1,2.8,White collar,Specialist,Night,Yes,1,2,4,3,1,4,1,2,5,2,3,2,3,4,2,2,2,5,1,4,2,2,2,1,2,2,2,3,2,4,2,1
+EMP0121,Division 1,3.9,White collar,Engineer,Night,Yes,1,2,2,3,3,4,3,2,3,1,4,3,4,3,4,4,2,4,1,5,2,3,4,3,3,2,3,3,1,3,3,2
+EMP0122,Division 1,8.4,Blue collar,Senior operator,Night,Yes,3,2,4,2,3,3,2,2,4,1,5,3,3,3,4,2,3,3,2,3,1,1,2,2,2,2,2,2,3,3,1,2
+EMP0123,Division 1,7.9,White collar,Engineer,Afternoon,Yes,3,2,3,3,2,4,3,3,4,1,5,2,3,3,3,3,2,4,2,4,3,3,3,4,2,2,4,3,2,4,2,2
+EMP0124,Division 1,3.1,White collar,Engineer,Morning,No,2,2,3,3,3,2,2,3,3,2,3,2,2,4,4,3,2,3,1,3,2,2,3,3,2,2,1,3,1,2,1,1
+EMP0125,Division 1,14.6,Blue collar,Senior operator,Morning,No,2,3,3,2,3,3,2,2,4,2,4,4,2,2,3,3,1,3,3,4,1,3,1,3,3,3,2,3,1,2,2,1
+EMP0126,Division 1,14.4,Blue collar,Operator,Day (office),No,2,3,4,2,4,3,2,2,5,2,3,3,3,2,4,2,2,3,1,4,3,2,2,2,2,2,2,2,2,4,1,2
+EMP0127,Division 1,10.6,White collar,Specialist,Afternoon,No,2,1,5,2,2,3,2,3,4,1,2,3,2,2,5,3,3,4,2,3,3,2,3,2,2,2,2,3,2,4,1,3
+EMP0128,Division 1,10.6,Blue collar,Operator,Night,Yes,2,2,4,3,3,3,1,1,3,2,5,3,2,2,1,1,2,4,3,4,2,2,2,3,3,2,3,2,1,3,2,4
+EMP0129,Division 1,10.6,White collar,Engineer,Afternoon,Yes,3,2,4,3,2,3,2,3,5,2,5,4,4,3,3,4,2,3,4,4,3,2,3,2,3,2,4,2,1,3,2,2
+EMP0130,Division 1,13.6,Blue collar,Senior operator,Morning,Yes,3,2,5,3,1,3,1,4,5,2,4,2,3,4,3,2,2,3,2,5,4,3,2,3,3,3,2,2,2,2,2,2
+EMP0131,Division 1,11.5,White collar,Specialist,Morning,Yes,3,3,4,3,1,4,3,3,4,1,3,3,2,3,3,3,1,4,1,4,4,3,2,3,2,2,2,2,3,3,2,2
+EMP0132,Division 1,4.3,Blue collar,Senior operator,Night,No,1,2,4,2,3,1,1,1,3,2,5,3,3,2,3,3,2,3,3,4,3,4,2,3,3,3,1,1,2,4,4,2
+EMP0133,Division 1,6.4,Blue collar,Operator,Afternoon,Yes,2,2,3,2,3,4,3,1,5,2,4,1,3,3,3,4,2,4,3,4,3,2,3,3,2,3,1,3,1,3,3,3
+EMP0134,Division 1,26.9,Blue collar,Senior operator,Morning,No,2,3,4,4,2,4,3,3,5,2,3,2,2,3,2,3,4,4,2,4,3,1,3,2,2,1,3,2,2,4,3,4
+EMP0135,Division 1,1.5,White collar,Engineer,Afternoon,Yes,1,2,4,3,1,5,3,2,4,3,5,4,3,3,3,2,2,3,2,4,3,2,2,2,2,2,2,2,2,4,2,2
+EMP0136,Division 1,5.4,Blue collar,Operator,Morning,No,3,2,4,2,2,3,1,2,2,2,4,4,3,4,4,1,2,3,2,3,3,2,4,2,4,2,4,2,2,2,3,1
+EMP0137,Division 1,14.7,Blue collar,Team lead,Afternoon,Yes,3,3,3,3,3,3,2,3,5,2,4,4,3,2,3,3,1,5,2,4,3,3,4,3,2,3,3,2,3,2,2,3
+EMP0138,Division 1,4.5,Blue collar,Operator,Morning,Yes,2,2,4,2,3,3,3,2,5,1,4,2,4,3,3,1,3,4,2,3,2,3,1,2,4,4,2,2,3,3,2,3
+EMP0139,Division 1,11.7,White collar,Supervisor,Night,Yes,2,2,5,2,2,5,2,2,4,1,4,2,3,3,3,2,2,5,2,3,3,2,2,2,1,2,2,3,2,2,4,3
+EMP0140,Division 1,7.8,Blue collar,Operator,Morning,Yes,3,1,4,2,3,3,1,2,3,1,4,1,4,3,3,3,3,5,2,3,3,4,4,3,1,2,2,2,1,2,3,4
+EMP0141,Division 1,4.7,White collar,Engineer,Afternoon,Yes,3,2,4,3,2,4,2,1,4,3,5,4,3,3,2,2,3,5,3,4,2,1,2,2,4,3,2,4,3,4,3,1
+EMP0142,Division 1,1.2,Blue collar,Operator,Morning,Yes,3,3,4,3,4,4,2,2,5,1,4,4,4,2,2,3,2,3,1,3,3,2,4,2,4,2,1,3,3,3,2,1
+EMP0143,Division 1,8.6,Blue collar,Team lead,Morning,No,3,2,3,2,2,3,2,2,3,2,3,4,2,5,3,3,2,2,2,2,2,1,2,2,2,3,2,2,2,4,1,2
+EMP0144,Division 1,4.2,Blue collar,Senior operator,Afternoon,Yes,2,1,5,2,2,3,3,2,3,1,4,4,2,3,2,3,2,4,1,4,2,2,2,1,3,1,2,3,2,3,2,2
+EMP0145,Division 1,7.0,Blue collar,Senior operator,Afternoon,Yes,2,2,4,2,2,3,2,3,2,2,3,3,3,3,2,1,2,5,2,3,3,4,3,2,3,3,2,3,2,3,2,2
+EMP0146,Division 1,10.5,White collar,Specialist,Afternoon,Yes,2,3,3,2,3,3,2,4,3,1,4,4,4,3,3,2,3,4,1,4,2,2,2,3,2,3,1,3,2,2,3,4
+EMP0147,Division 1,13.0,Blue collar,Senior operator,Morning,No,2,2,4,2,2,3,1,2,3,3,3,3,2,2,3,3,3,2,3,3,1,2,3,2,3,3,2,3,1,3,3,2
+EMP0148,Division 1,5.4,Blue collar,Senior operator,Night,Yes,2,2,4,3,3,4,3,2,4,2,4,1,3,3,4,4,2,3,1,5,2,1,4,1,3,2,3,3,1,4,2,2
+EMP0149,Division 1,4.7,White collar,Engineer,Night,Yes,1,2,5,2,3,4,3,3,2,3,5,4,2,2,2,1,1,4,1,4,2,2,3,2,1,3,3,2,3,3,3,2
+EMP0150,Division 1,2.8,Blue collar,Operator,Night,Yes,1,2,2,1,2,3,2,1,4,3,3,1,3,3,3,2,3,3,2,3,3,3,2,3,2,2,2,3,3,3,2,3
+EMP0151,Division 1,13.4,Blue collar,Operator,Morning,Yes,1,2,4,2,3,4,1,1,4,2,3,3,3,3,2,4,3,2,3,4,3,2,4,3,3,2,3,2,2,2,2,2
+EMP0152,Division 1,24.6,White collar,Supervisor,Afternoon,No,3,1,3,1,2,3,3,2,2,1,5,4,4,3,4,2,2,4,3,5,2,2,3,2,3,2,1,1,1,3,2,2
+EMP0153,Division 1,14.2,Blue collar,Team lead,Morning,Yes,2,3,4,3,2,3,2,2,5,2,4,3,3,2,4,3,3,3,1,4,2,3,2,2,1,1,2,3,3,3,2,3
+EMP0154,Division 1,16.2,Blue collar,Operator,Morning,Yes,2,3,4,3,3,3,2,2,5,1,4,5,4,2,3,4,2,5,1,3,4,2,4,1,3,2,2,2,1,4,3,3
+EMP0155,Division 1,4.5,White collar,Specialist,Day (office),No,2,1,3,3,1,3,4,2,4,2,3,1,3,2,4,3,3,4,2,3,4,3,3,3,3,2,1,2,2,4,2,3
+EMP0156,Division 1,10.1,Blue collar,Team lead,Morning,Yes,2,3,3,3,1,4,2,2,4,2,4,3,4,2,3,2,1,4,4,3,2,1,2,3,2,2,2,2,2,2,2,4
+EMP0157,Division 1,12.3,Blue collar,Operator,Afternoon,Yes,2,2,4,3,3,4,2,3,4,2,5,3,3,1,4,3,2,4,2,3,4,3,1,3,4,2,1,1,1,3,3,4
+EMP0158,Division 1,0.5,Blue collar,Senior operator,Afternoon,Yes,1,3,4,2,3,4,1,2,3,2,4,2,4,3,3,5,3,4,2,3,3,4,1,2,2,3,1,3,2,3,2,1
+EMP0159,Division 1,3.4,White collar,Supervisor,Night,No,3,2,3,3,2,3,2,2,5,2,4,2,2,2,2,3,3,3,3,4,3,3,4,3,2,2,3,2,2,3,3,1
+EMP0160,Division 1,19.5,Blue collar,Operator,Afternoon,Yes,2,2,2,1,2,3,2,3,4,2,5,2,2,3,3,3,3,3,2,4,3,1,4,2,3,4,3,2,2,3,2,3
+EMP0161,Division 1,2.3,Blue collar,Senior operator,Morning,No,2,2,4,3,3,4,2,2,4,2,4,2,5,3,2,2,1,5,3,4,4,2,2,2,4,3,2,2,2,4,1,3
+EMP0162,Division 1,17.7,White collar,Engineer,Morning,Yes,3,2,3,2,2,4,4,1,5,2,4,3,2,4,5,3,3,4,2,4,2,2,1,3,3,2,1,1,3,3,3,2
+EMP0163,Division 1,2.3,White collar,Supervisor,Afternoon,Yes,2,3,4,2,2,4,3,3,4,3,4,2,2,5,3,3,3,4,2,3,3,3,2,2,3,2,1,2,3,4,2,2
+EMP0164,Division 1,3.6,Blue collar,Team lead,Morning,Yes,3,1,3,2,3,4,2,3,3,2,4,3,2,4,3,2,1,4,3,3,4,1,1,1,2,1,3,3,2,3,2,2
+EMP0165,Division 1,10.2,Blue collar,Team lead,Afternoon,No,2,2,3,1,3,5,2,2,2,3,3,3,4,2,3,4,2,4,2,3,1,1,1,3,3,2,2,3,2,2,2,1
+EMP0166,Division 1,7.9,Blue collar,Operator,Morning,Yes,3,2,4,3,3,4,2,2,3,1,4,3,2,2,2,3,2,5,3,3,3,1,4,3,2,1,2,3,3,4,2,3
+EMP0167,Division 1,5.8,White collar,Supervisor,Morning,No,3,2,4,3,1,5,1,1,5,2,4,3,3,4,1,3,1,4,2,5,2,2,4,2,3,3,2,3,3,4,2,2
+EMP0168,Division 1,19.0,Blue collar,Senior operator,Afternoon,No,1,3,3,2,2,4,2,2,4,2,4,3,3,1,4,2,2,3,1,3,3,1,2,3,3,1,1,2,1,3,1,3
+EMP0169,Division 1,2.8,Blue collar,Operator,Morning,Yes,2,3,4,1,3,4,3,4,4,2,4,4,4,3,4,3,3,4,2,4,4,4,2,3,4,2,3,3,3,4,1,1
+EMP0170,Division 1,6.8,White collar,Supervisor,Afternoon,Yes,2,3,5,4,3,3,2,3,3,3,4,3,2,3,2,2,2,4,3,3,3,2,2,1,1,1,4,2,3,4,3,3
+EMP0171,Division 1,11.0,White collar,Engineer,Night,Yes,2,1,4,3,3,4,2,3,4,1,4,5,3,3,1,2,2,4,3,4,3,3,2,2,2,2,2,2,3,3,3,3
+EMP0172,Division 1,9.1,Blue collar,Senior operator,Night,Yes,2,2,4,4,3,4,1,3,3,1,4,4,2,3,3,3,2,3,2,4,3,2,4,1,4,2,4,2,2,3,4,1
+EMP0173,Division 1,4.8,White collar,Engineer,Morning,No,2,3,3,2,3,4,3,2,3,1,5,4,5,2,2,3,2,4,1,5,3,2,3,2,1,4,2,3,2,3,1,3
+EMP0174,Division 1,4.9,Blue collar,Operator,Morning,No,3,1,4,3,2,4,3,3,3,3,4,1,3,3,2,2,2,3,1,3,3,2,3,2,3,1,3,3,1,3,2,2
+EMP0175,Division 1,12.9,White collar,Engineer,Morning,Yes,3,3,3,3,4,3,3,3,4,2,3,3,3,3,3,5,3,3,1,3,4,3,2,3,3,3,2,2,2,3,3,2
+EMP0176,Division 1,13.2,Blue collar,Senior operator,Afternoon,Yes,2,3,4,2,2,4,1,3,4,1,4,3,4,2,3,2,1,4,2,4,2,2,3,2,2,3,2,2,3,4,2,1
+EMP0177,Division 1,9.3,Blue collar,Operator,Night,No,1,1,4,3,3,4,3,2,3,2,4,3,2,4,2,4,2,4,2,4,2,2,3,2,1,1,3,4,2,3,2,2
+EMP0178,Division 1,4.1,White collar,Specialist,Morning,Yes,2,3,3,2,2,3,2,1,4,3,4,2,4,3,3,2,3,3,1,4,3,2,3,1,2,2,3,1,2,3,2,3
+EMP0179,Division 1,5.0,Blue collar,Operator,Day (office),No,3,2,3,2,3,3,2,3,4,2,4,3,3,3,4,3,2,4,3,4,4,2,2,3,4,3,2,2,1,5,2,2
+EMP0180,Division 1,7.5,Blue collar,Operator,Morning,Yes,4,3,3,1,2,4,1,2,4,2,4,1,4,3,3,3,2,3,1,4,3,3,3,2,4,1,1,3,3,3,3,2
+EMP0181,Division 1,8.2,White collar,Specialist,Afternoon,Yes,3,1,4,3,3,5,1,2,4,1,4,3,2,2,3,2,3,5,1,2,4,2,3,2,3,3,1,4,1,4,1,4
+EMP0182,Division 1,10.8,White collar,Specialist,Night,Yes,1,2,4,2,3,4,3,2,3,1,5,2,2,2,3,3,2,4,2,4,4,2,2,1,2,2,2,3,2,4,3,2
+EMP0183,Division 1,6.6,Blue collar,Operator,Night,Yes,2,1,4,2,4,3,3,4,5,3,5,2,3,3,3,3,3,3,3,5,3,2,2,3,4,2,3,3,2,3,2,1
+EMP0184,Division 1,12.7,Blue collar,Senior operator,Night,Yes,3,1,4,2,2,3,2,2,5,3,3,3,3,3,3,2,2,5,4,4,2,4,2,3,3,2,2,2,2,3,1,2
+EMP0185,Division 1,12.6,Blue collar,Team lead,Night,Yes,3,2,4,2,3,3,2,2,2,1,3,3,2,3,4,2,1,5,3,3,4,2,2,2,2,2,2,3,2,1,2,2
+EMP0186,Division 1,16.5,Blue collar,Senior operator,Morning,Yes,2,3,5,3,2,4,2,2,4,3,4,4,3,3,3,1,3,5,3,3,4,2,2,3,3,2,1,3,1,2,2,2
+EMP0187,Division 1,7.7,Blue collar,Operator,Night,No,3,2,5,3,2,4,2,3,4,2,3,2,4,4,2,3,4,5,1,4,3,2,2,2,3,2,2,2,2,3,2,3
+EMP0188,Division 1,9.4,Blue collar,Operator,Morning,No,2,2,4,3,3,3,1,4,5,2,4,3,3,3,2,2,3,4,4,4,2,4,2,2,2,2,2,2,3,1,2,1
+EMP0189,Division 1,6.9,White collar,Supervisor,Night,Yes,2,2,4,3,1,4,2,3,4,3,4,4,3,2,2,3,1,4,1,4,2,2,2,1,3,2,2,2,3,3,3,2
+EMP0190,Division 1,4.1,Blue collar,Operator,Afternoon,Yes,2,1,4,2,2,3,2,1,4,2,5,3,2,3,3,3,3,4,2,4,3,2,3,3,3,2,1,2,2,4,3,1
+EMP0191,Division 1,24.3,Blue collar,Team lead,Night,Yes,2,2,4,2,3,4,3,4,5,2,5,3,5,2,2,3,2,4,3,2,2,2,3,2,2,2,2,3,1,4,2,2
+EMP0192,Division 1,15.3,Blue collar,Operator,Afternoon,Yes,3,2,4,3,2,4,2,2,3,3,3,4,2,1,3,2,1,4,1,4,1,2,2,1,3,3,3,4,1,4,3,3
+EMP0193,Division 1,12.4,White collar,Supervisor,Afternoon,Yes,1,2,3,3,2,5,1,2,3,1,4,3,3,3,4,4,2,5,2,4,2,2,2,2,1,2,3,2,3,4,3,2
+EMP0194,Division 1,7.5,Blue collar,Senior operator,Afternoon,Yes,3,3,4,3,2,4,2,1,4,3,3,2,2,2,3,3,2,4,1,3,2,4,2,2,4,1,2,2,1,4,1,2
+EMP0195,Division 1,3.8,Blue collar,Team lead,Night,Yes,2,2,4,2,2,4,2,3,3,2,4,3,4,3,4,2,3,4,2,3,3,3,2,3,3,2,2,3,2,4,2,2
+EMP0196,Division 1,13.8,Blue collar,Operator,Morning,Yes,2,2,3,3,3,5,3,2,2,2,4,3,3,2,4,3,2,4,3,4,4,3,3,3,3,2,2,4,3,3,1,2
+EMP0197,Division 1,6.9,Blue collar,Senior operator,Morning,Yes,1,3,4,3,3,3,3,2,3,2,5,4,3,4,2,3,1,3,2,5,3,2,3,2,3,2,2,3,2,3,3,3
+EMP0198,Division 1,9.9,Blue collar,Operator,Morning,Yes,3,2,4,3,1,2,3,3,3,1,4,3,5,2,3,2,2,3,2,4,2,4,3,1,2,2,2,2,2,3,2,3
+EMP0199,Division 1,5.0,White collar,Specialist,Morning,No,3,3,4,2,3,3,2,2,4,2,3,2,2,3,4,4,2,3,1,3,3,4,3,2,2,3,3,2,3,3,2,4
+EMP0200,Division 1,8.9,White collar,Specialist,Night,Yes,2,2,4,1,3,3,4,3,3,2,5,3,4,3,2,2,1,4,3,4,3,3,3,4,1,2,2,1,3,4,2,3
+EMP0201,Division 1,5.3,Blue collar,Team lead,Morning,No,1,2,4,3,1,4,2,2,4,1,3,2,3,2,3,2,1,4,3,5,3,3,3,1,3,2,1,2,2,4,2,1
+EMP0202,Division 1,5.4,Blue collar,Team lead,Day (office),Yes,2,2,5,1,3,3,4,4,4,2,5,4,3,2,3,2,2,3,1,4,3,2,3,2,3,2,3,2,3,3,2,3
+EMP0203,Division 1,8.8,White collar,Specialist,Morning,Yes,3,1,4,2,3,3,2,3,3,2,3,2,5,3,1,4,3,4,2,4,4,3,2,3,2,2,1,2,2,4,2,3
+EMP0204,Division 1,2.3,Blue collar,Operator,Morning,No,1,2,3,2,3,3,2,1,4,2,4,4,3,2,3,3,2,3,2,5,3,2,2,2,3,2,3,3,1,3,3,4
+EMP0205,Division 1,2.4,Blue collar,Operator,Night,No,1,1,4,2,2,4,2,1,4,2,4,3,2,2,2,2,2,4,3,4,3,1,3,2,3,3,2,2,2,3,1,4
+EMP0206,Division 1,4.5,Blue collar,Senior operator,Night,No,2,2,4,2,3,4,2,3,4,1,5,3,3,3,2,3,1,4,2,3,3,1,3,2,3,2,1,2,1,3,2,2
+EMP0207,Division 1,6.5,Blue collar,Operator,Afternoon,Yes,2,1,3,3,2,2,3,2,3,3,4,4,3,2,3,1,2,5,2,3,4,3,2,3,3,3,2,3,2,3,2,3
+EMP0208,Division 1,12.9,Blue collar,Operator,Afternoon,Yes,2,3,4,3,3,4,2,2,5,2,5,3,3,3,1,4,3,3,2,3,2,1,4,2,2,3,2,4,4,4,2,2
+EMP0209,Division 1,6.8,White collar,Engineer,Night,No,1,3,3,2,4,5,3,3,3,3,5,4,3,2,2,3,4,5,3,3,2,2,2,2,2,3,3,2,3,3,1,2
+EMP0210,Division 1,7.5,White collar,Engineer,Morning,Yes,3,1,5,3,3,5,3,3,3,4,4,4,5,3,5,1,2,3,3,4,2,2,3,3,1,1,3,3,2,3,3,2
+EMP0211,Division 1,6.2,White collar,Engineer,Day (office),Yes,2,2,4,2,2,4,2,3,3,2,4,3,3,4,3,2,2,3,2,4,2,3,2,2,3,2,2,3,3,4,2,3
+EMP0212,Division 1,9.4,Blue collar,Operator,Day (office),Yes,1,3,4,2,2,3,3,1,4,2,3,2,2,1,2,3,2,4,3,4,3,2,2,3,3,2,3,2,1,3,2,1
+EMP0213,Division 1,4.1,Blue collar,Operator,Night,Yes,3,3,4,3,2,4,2,3,5,2,3,2,3,3,4,2,2,5,1,3,2,3,2,4,1,3,2,3,1,3,2,2
+EMP0214,Division 1,7.0,White collar,Engineer,Morning,No,3,2,5,3,3,3,4,2,3,2,3,3,2,4,2,4,3,4,3,5,3,3,3,2,4,2,3,1,2,3,2,3
+EMP0215,Division 1,9.8,White collar,Supervisor,Night,Yes,2,3,3,2,2,4,1,1,4,3,4,4,3,3,2,3,2,4,1,4,2,1,3,1,2,2,3,2,2,3,2,4
+EMP0216,Division 1,8.8,Blue collar,Operator,Morning,Yes,3,2,4,2,2,5,3,1,3,2,4,2,2,2,2,3,2,4,3,4,2,3,3,3,1,3,2,2,1,4,2,2
+EMP0217,Division 1,7.6,White collar,Engineer,Morning,Yes,2,2,4,4,2,4,1,2,4,2,5,3,5,3,3,1,2,3,1,4,2,2,3,1,4,2,3,3,2,3,2,4
+EMP0218,Division 1,7.7,White collar,Specialist,Morning,Yes,2,2,4,1,2,3,2,1,3,2,4,5,2,4,4,2,2,4,2,4,3,2,2,1,1,1,3,1,2,3,2,3
+EMP0219,Division 1,10.4,Blue collar,Operator,Afternoon,Yes,2,2,3,2,3,3,2,2,3,2,4,3,4,4,2,2,2,4,3,4,3,2,2,1,3,3,2,3,3,4,3,2
+EMP0220,Division 1,25.0,Blue collar,Team lead,Night,Yes,4,2,2,3,1,4,3,2,4,3,4,2,3,3,1,2,1,5,3,3,3,2,3,2,3,2,2,3,1,3,2,1
+EMP0221,Division 1,4.3,Blue collar,Senior operator,Night,Yes,2,2,5,4,3,4,2,2,3,2,4,4,2,3,4,3,3,4,2,5,3,2,1,2,3,3,3,3,1,4,1,1
+EMP0222,Division 1,25.4,Blue collar,Operator,Night,No,2,3,4,3,2,2,3,2,3,1,4,3,3,2,4,2,4,4,2,3,3,2,3,2,2,2,2,4,2,4,3,2
+EMP0223,Division 1,4.1,Blue collar,Operator,Afternoon,Yes,2,2,4,3,2,4,1,1,4,3,5,2,3,4,1,3,2,3,3,3,2,2,4,3,3,3,2,2,3,3,3,3
+EMP0224,Division 1,1.1,White collar,Supervisor,Morning,Yes,3,3,5,2,4,3,3,2,3,1,4,4,3,4,3,4,2,4,2,5,4,2,3,3,3,2,3,1,2,4,3,3
+EMP0225,Division 1,5.2,Blue collar,Team lead,Afternoon,No,3,3,3,3,3,5,2,1,3,2,4,2,1,2,3,4,3,4,2,4,3,2,2,4,2,3,4,3,2,3,3,2
+EMP0226,Division 1,9.5,Blue collar,Operator,Day (office),Yes,3,4,3,3,2,3,2,2,4,3,3,3,2,3,2,3,3,3,3,5,3,3,2,2,3,2,2,2,2,5,2,2
+EMP0227,Division 1,21.9,Blue collar,Senior operator,Morning,Yes,3,1,4,1,3,4,2,1,5,2,4,3,4,3,2,5,2,4,3,4,4,2,3,3,3,2,2,1,2,3,3,2
+EMP0228,Division 1,3.8,Blue collar,Operator,Night,Yes,2,2,4,3,3,3,3,2,4,2,4,3,2,4,4,4,1,4,1,5,4,2,2,3,3,1,2,3,3,4,2,2
+EMP0229,Division 1,10.4,White collar,Supervisor,Afternoon,Yes,3,3,3,3,3,4,3,2,5,2,3,1,3,3,3,3,2,5,2,2,3,3,3,2,2,2,2,4,2,4,3,3
+EMP0230,Division 1,2.6,Blue collar,Operator,Afternoon,Yes,2,2,5,3,3,3,3,3,3,1,5,3,2,2,3,2,2,5,2,3,3,3,2,2,3,1,2,2,1,3,2,2
+EMP0231,Division 1,21.5,Blue collar,Team lead,Night,No,3,3,4,3,3,4,1,3,3,2,4,4,4,2,2,4,2,4,1,4,3,3,4,1,3,1,2,3,1,3,1,1
+EMP0232,Division 1,15.4,White collar,Specialist,Afternoon,Yes,3,2,4,2,1,4,2,1,4,2,5,4,4,2,2,4,2,3,1,3,3,3,4,3,2,2,1,2,3,4,3,2
+EMP0233,Division 1,5.4,Blue collar,Senior operator,Night,Yes,2,4,3,1,2,3,1,4,5,3,4,2,4,3,1,2,2,3,3,4,3,3,2,3,2,3,3,1,1,3,2,2
+EMP0234,Division 1,16.9,Blue collar,Operator,Day (office),No,3,1,5,3,2,4,1,2,4,2,5,4,4,3,3,4,2,5,1,5,4,4,2,1,3,2,3,3,3,3,2,3
+EMP0235,Division 1,7.0,Blue collar,Operator,Afternoon,Yes,3,3,4,3,4,3,3,2,4,2,3,2,4,5,4,3,2,4,2,4,5,3,2,2,3,2,2,3,2,2,2,2
+EMP0236,Division 1,15.9,Blue collar,Operator,Morning,Yes,1,3,4,3,3,4,2,3,4,3,4,3,2,4,2,2,2,5,3,4,3,3,2,3,3,2,2,2,2,4,2,3
+EMP0237,Division 1,7.6,Blue collar,Operator,Afternoon,Yes,3,1,5,3,2,3,2,4,4,3,4,3,2,4,2,1,2,4,2,3,1,4,2,2,2,3,3,4,2,3,2,3
+EMP0238,Division 1,7.8,Blue collar,Operator,Day (office),No,2,3,4,2,2,3,3,2,3,2,4,3,4,3,3,3,2,4,2,4,2,1,2,3,2,2,2,1,2,4,2,2
+EMP0239,Division 1,5.5,Blue collar,Senior operator,Morning,Yes,1,1,4,3,3,4,2,1,4,3,3,4,4,3,3,3,3,4,1,4,4,2,3,2,4,2,2,1,2,3,1,1
+EMP0240,Division 1,11.3,White collar,Engineer,Afternoon,No,2,2,3,3,2,4,2,3,5,2,5,3,2,3,2,4,2,3,2,3,3,3,3,2,1,2,1,2,2,4,1,3
+EMP0241,Division 1,8.2,Blue collar,Operator,Afternoon,Yes,2,2,5,2,2,4,2,2,5,2,4,3,2,3,3,4,2,4,2,4,3,3,3,3,2,3,2,2,1,4,2,3
+EMP0242,Division 1,10.6,Blue collar,Team lead,Night,Yes,2,1,5,3,2,3,1,2,4,2,3,4,2,3,3,2,1,3,2,5,3,4,2,2,3,3,3,4,1,3,2,3
+EMP0243,Division 1,2.1,Blue collar,Team lead,Morning,Yes,1,2,3,2,3,3,2,1,4,3,4,2,1,3,3,3,2,4,2,4,2,2,4,2,3,2,1,2,1,3,3,2
+EMP0244,Division 1,16.3,Blue collar,Team lead,Night,Yes,2,2,4,3,3,4,2,2,4,2,5,3,2,3,4,4,3,4,2,4,4,2,2,2,3,2,2,2,3,3,2,1
+EMP0245,Division 1,18.7,Blue collar,Team lead,Day (office),No,3,3,4,2,3,3,2,2,4,2,4,4,2,3,5,3,1,3,2,4,2,2,3,2,4,1,3,1,2,3,3,3
+EMP0246,Division 1,8.2,Blue collar,Operator,Morning,Yes,3,3,3,2,3,3,2,3,3,3,4,3,3,2,1,2,2,4,4,4,3,3,1,2,2,2,3,3,1,4,2,4
+EMP0247,Division 1,23.9,White collar,Engineer,Morning,Yes,1,4,4,3,2,3,2,2,4,2,5,2,3,2,4,2,1,3,2,4,2,4,2,2,2,1,1,1,3,3,2,2
+EMP0248,Division 1,20.7,Blue collar,Senior operator,Day (office),No,2,2,3,3,2,4,2,2,4,2,4,2,3,4,3,3,1,5,2,3,3,4,2,3,2,2,2,1,1,2,2,3
+EMP0249,Division 1,11.4,Blue collar,Senior operator,Morning,No,2,2,4,3,2,4,2,3,3,2,3,3,2,5,4,3,1,3,2,3,4,2,2,1,2,2,2,2,1,3,2,3
+EMP0250,Division 1,17.0,Blue collar,Operator,Night,Yes,3,2,4,3,2,4,2,2,4,3,4,1,2,4,4,3,2,3,2,3,3,3,1,2,2,2,2,3,2,3,2,1
+EMP0251,Division 1,14.4,White collar,Supervisor,Afternoon,Yes,2,2,3,1,3,4,2,1,3,1,4,3,3,2,3,1,2,3,2,3,3,2,3,2,2,4,3,2,3,2,2,2
+EMP0252,Division 1,1.7,Blue collar,Operator,Morning,Yes,3,1,4,2,2,3,2,3,4,3,4,4,2,4,4,2,2,3,4,3,3,2,3,3,3,2,2,3,2,3,1,1
+EMP0253,Division 1,6.3,Blue collar,Operator,Night,No,1,2,3,3,2,3,2,2,4,1,4,3,4,4,3,3,2,2,2,2,2,3,2,3,3,2,2,2,1,4,3,2
+EMP0254,Division 1,11.9,Blue collar,Operator,Afternoon,No,1,1,4,2,2,3,2,3,5,2,5,1,4,3,2,1,2,3,2,5,2,4,2,2,1,3,1,3,2,3,3,3
+EMP0255,Division 1,19.4,White collar,Specialist,Afternoon,Yes,2,2,3,2,1,3,3,2,3,2,4,3,2,3,4,4,3,5,2,3,3,2,2,1,3,1,1,3,2,3,2,1
+EMP0256,Division 1,2.5,Blue collar,Senior operator,Afternoon,No,1,1,3,4,2,3,2,2,2,3,4,3,3,2,2,4,2,4,1,5,2,2,3,2,2,1,3,4,2,4,2,3
+EMP0257,Division 1,1.8,White collar,Engineer,Afternoon,Yes,1,1,5,2,2,4,2,2,4,2,3,2,4,4,3,3,2,3,2,4,3,2,2,2,2,3,2,2,1,3,2,3
+EMP0258,Division 1,7.3,Blue collar,Team lead,Morning,Yes,2,2,4,3,4,4,2,3,5,1,5,3,3,3,3,3,3,4,2,4,4,3,2,1,3,2,2,3,2,4,3,3
+EMP0259,Division 1,1.1,Blue collar,Operator,Afternoon,Yes,3,2,4,3,2,4,2,2,4,2,3,2,3,2,1,3,4,4,3,4,4,2,2,1,1,2,1,1,1,4,1,3
+EMP0260,Division 1,7.1,Blue collar,Operator,Day (office),No,1,2,4,2,3,4,1,2,3,3,4,2,3,4,2,3,1,5,3,4,2,1,4,2,3,2,3,5,2,2,2,1
+EMP0261,Division 1,9.6,Blue collar,Team lead,Morning,Yes,2,3,4,3,3,3,2,2,4,1,5,3,4,4,3,2,3,4,3,3,2,3,2,2,1,2,1,3,1,3,2,2
+EMP0262,Division 1,3.7,Blue collar,Team lead,Night,No,3,2,5,3,2,4,1,1,4,1,5,2,3,3,3,4,4,4,2,4,3,2,3,2,2,2,3,2,2,5,2,3
+EMP0263,Division 1,7.3,Blue collar,Team lead,Morning,No,2,2,3,4,4,4,3,2,4,2,3,3,3,3,1,4,2,4,3,3,3,2,3,2,4,2,2,2,1,3,3,4
+EMP0264,Division 2,7.6,Blue collar,Senior operator,Afternoon,Yes,2,2,4,2,2,5,4,2,4,2,3,5,4,4,2,5,3,3,3,4,4,2,2,3,4,2,3,4,2,4,3,3
+EMP0265,Division 2,2.7,Blue collar,Senior operator,Morning,Yes,3,3,5,1,3,4,3,3,3,3,4,3,4,4,4,5,1,4,3,3,3,3,2,3,3,2,4,3,2,3,3,4
+EMP0266,Division 2,15.2,Blue collar,Operator,Morning,Yes,2,2,3,2,2,3,4,2,4,3,5,3,3,3,1,4,3,4,4,2,3,3,2,2,1,2,2,3,3,3,2,5
+EMP0267,Division 2,16.9,White collar,Specialist,Afternoon,Yes,3,2,3,1,3,3,2,2,4,2,4,3,4,4,3,5,2,2,3,4,3,4,4,3,3,2,4,3,3,4,2,4
+EMP0268,Division 2,6.9,Blue collar,Operator,Afternoon,Yes,1,4,2,2,2,2,3,3,3,2,4,3,3,3,4,5,4,3,4,1,3,4,3,4,3,3,5,3,1,4,3,2
+EMP0269,Division 2,13.4,Blue collar,Operator,Day (office),No,2,3,4,2,3,2,3,2,4,2,5,4,4,3,3,3,2,5,3,2,3,4,4,2,2,2,3,4,2,4,3,2
+EMP0270,Division 2,9.9,White collar,Specialist,Afternoon,Yes,2,2,3,3,3,4,3,2,3,2,3,4,3,3,4,2,2,3,2,3,3,4,4,2,2,3,4,3,1,3,3,2
+EMP0271,Division 2,2.3,White collar,Supervisor,Afternoon,No,2,3,4,3,4,2,2,4,5,2,4,4,3,4,5,3,3,4,3,3,4,3,2,3,4,2,3,2,3,4,3,3
+EMP0272,Division 2,8.6,Blue collar,Operator,Morning,No,2,2,4,3,3,3,3,3,2,3,4,3,4,4,1,3,2,4,2,3,4,2,3,3,2,3,2,3,2,4,4,1
+EMP0273,Division 2,7.0,Blue collar,Team lead,Morning,No,2,3,5,3,3,4,2,2,3,1,4,3,5,4,3,4,2,2,4,3,3,3,3,3,2,3,3,3,2,3,3,3
+EMP0274,Division 2,3.0,Blue collar,Senior operator,Night,No,2,2,4,2,3,4,3,3,3,3,5,3,4,4,1,4,3,3,3,1,4,4,2,2,3,3,3,3,1,3,2,4
+EMP0275,Division 2,5.4,Blue collar,Operator,Morning,No,1,3,4,3,3,5,1,3,4,2,5,5,3,3,4,4,2,3,2,4,3,4,2,3,3,4,3,3,2,4,2,4
+EMP0276,Division 2,8.3,White collar,Specialist,Afternoon,Yes,3,2,3,4,2,2,2,4,2,2,4,4,4,3,4,4,2,3,3,3,3,4,3,3,3,3,2,2,3,3,4,3
+EMP0277,Division 2,5.5,Blue collar,Operator,Night,Yes,3,2,4,3,2,2,3,3,4,3,3,2,3,4,2,3,4,3,3,3,4,4,2,2,3,3,3,2,3,4,3,3
+EMP0278,Division 2,14.4,White collar,Supervisor,Afternoon,Yes,3,2,4,2,3,4,3,4,3,3,4,3,5,4,5,4,3,2,3,3,3,2,3,3,2,2,2,2,3,4,3,3
+EMP0279,Division 2,6.9,Blue collar,Team lead,Night,No,3,2,4,2,2,4,2,1,1,3,4,4,4,3,4,3,3,3,4,3,3,3,4,4,3,2,4,2,1,4,3,4
+EMP0280,Division 2,5.1,White collar,Engineer,Afternoon,No,3,3,4,2,3,3,4,2,4,3,4,5,4,2,3,4,3,3,4,3,2,3,2,3,3,2,3,3,3,5,2,3
+EMP0281,Division 2,8.7,Blue collar,Operator,Morning,No,3,2,4,3,3,4,3,3,3,3,3,4,3,3,5,4,3,4,3,2,3,4,3,3,3,3,2,1,3,4,2,3
+EMP0282,Division 2,9.4,Blue collar,Operator,Night,Yes,4,3,4,3,2,5,4,3,3,1,3,3,4,4,2,3,4,4,2,5,2,3,3,3,3,3,3,2,2,4,2,3
+EMP0283,Division 2,13.5,Blue collar,Operator,Night,Yes,2,3,3,3,2,4,3,2,3,2,3,6,4,5,3,3,2,4,3,4,3,3,3,2,4,2,3,2,1,4,2,2
+EMP0284,Division 2,7.9,Blue collar,Operator,Morning,Yes,2,2,4,3,3,4,5,3,3,2,3,4,4,3,2,4,3,4,3,2,2,4,3,2,4,3,5,3,3,4,3,3
+EMP0285,Division 2,9.1,Blue collar,Operator,Morning,Yes,3,2,4,3,2,4,2,2,3,3,4,5,3,4,5,3,3,2,2,3,3,2,3,3,4,2,2,2,2,4,4,3
+EMP0286,Division 2,6.1,White collar,Specialist,Morning,Yes,3,3,4,3,2,3,4,3,3,2,5,3,3,5,4,4,3,3,4,3,3,4,3,2,3,3,3,3,3,4,4,2
+EMP0287,Division 2,19.1,Blue collar,Operator,Morning,Yes,3,2,4,2,2,2,3,4,3,3,4,2,4,4,4,3,3,3,3,4,3,2,2,2,3,2,3,2,2,4,3,4
+EMP0288,Division 2,9.8,White collar,Supervisor,Day (office),No,4,3,4,3,3,4,2,4,2,3,4,2,4,5,4,3,3,3,3,2,4,2,3,4,3,2,3,4,3,3,3,3
+EMP0289,Division 2,8.5,Blue collar,Senior operator,Afternoon,Yes,2,3,2,2,3,3,3,2,4,2,5,1,3,4,4,3,3,4,2,3,4,3,2,4,4,2,3,2,2,3,3,4
+EMP0290,Division 2,5.5,Blue collar,Operator,Afternoon,Yes,3,3,4,3,3,3,3,2,2,2,3,5,4,3,4,4,3,4,3,2,2,4,3,2,3,3,2,3,2,4,3,3
+EMP0291,Division 2,14.6,White collar,Supervisor,Night,No,2,2,4,3,2,3,2,3,3,3,4,4,4,3,4,3,2,3,2,3,3,4,2,3,3,3,3,3,4,4,3,2
+EMP0292,Division 2,2.1,Blue collar,Operator,Afternoon,Yes,4,2,4,4,2,4,2,3,3,2,3,3,4,4,4,4,2,4,4,3,4,4,3,3,3,2,3,3,2,4,4,3
+EMP0293,Division 2,8.7,Blue collar,Operator,Morning,Yes,2,2,4,2,3,3,3,2,2,2,3,4,3,4,3,5,3,2,4,3,3,3,3,3,3,3,2,3,3,4,4,3
+EMP0294,Division 2,4.9,Blue collar,Senior operator,Day (office),Yes,2,2,4,3,2,3,3,4,3,2,3,4,4,4,4,4,4,4,4,3,3,3,2,4,5,2,3,3,2,4,1,2
+EMP0295,Division 2,12.7,Blue collar,Operator,Night,Yes,2,3,3,4,3,4,1,3,4,2,3,4,6,4,4,4,2,3,2,3,4,2,3,1,3,3,4,3,2,4,3,2
+EMP0296,Division 2,9.4,White collar,Specialist,Night,Yes,2,2,5,3,2,3,4,3,3,2,4,5,4,1,4,5,3,2,3,4,4,2,3,3,3,2,3,3,2,4,4,3
+EMP0297,Division 2,8.6,Blue collar,Team lead,Afternoon,Yes,2,4,3,3,3,2,3,2,4,2,2,3,4,3,2,4,3,3,4,3,2,3,2,2,3,2,2,2,3,3,3,4
+EMP0298,Division 2,3.6,Blue collar,Team lead,Night,Yes,2,3,3,3,2,4,2,4,4,2,4,3,4,2,3,4,3,4,3,3,3,4,3,4,3,2,3,3,3,3,4,3
+EMP0299,Division 2,7.3,White collar,Specialist,Morning,Yes,1,2,4,4,3,3,4,1,4,2,4,4,3,4,4,4,3,3,2,3,4,3,1,3,3,2,3,4,3,3,3,2
+EMP0300,Division 2,9.7,Blue collar,Senior operator,Afternoon,Yes,2,3,5,2,3,3,3,3,3,2,4,4,5,4,3,3,4,3,2,3,4,4,2,2,2,1,2,3,2,4,3,4
+EMP0301,Division 2,13.5,Blue collar,Operator,Day (office),No,4,1,4,2,4,4,4,4,4,2,4,4,3,4,4,3,3,3,3,3,4,4,4,3,3,3,4,3,2,4,2,3
+EMP0302,Division 2,10.5,White collar,Engineer,Morning,Yes,3,4,4,3,3,3,3,3,5,2,3,5,4,3,3,3,2,3,2,3,4,3,3,2,3,3,4,3,2,3,2,2
+EMP0303,Division 2,12.7,Blue collar,Senior operator,Night,No,3,2,2,1,3,3,3,4,3,2,4,3,3,4,2,5,5,2,4,2,5,3,1,3,3,3,4,2,2,5,4,4
+EMP0304,Division 2,2.6,White collar,Engineer,Afternoon,Yes,3,2,3,3,3,4,3,3,2,3,4,3,3,4,3,3,3,2,2,3,5,3,2,3,4,3,3,2,2,4,4,5
+EMP0305,Division 2,8.4,Blue collar,Operator,Morning,Yes,4,1,5,3,2,3,3,3,3,3,5,4,4,3,3,3,2,3,3,3,3,5,2,2,2,2,1,3,2,4,3,1
+EMP0306,Division 2,13.8,White collar,Engineer,Night,No,1,3,4,2,2,4,3,3,3,2,5,3,3,2,3,3,4,3,2,3,3,3,3,4,3,2,4,3,3,4,2,2
+EMP0307,Division 2,1.1,White collar,Specialist,Morning,Yes,2,2,4,2,2,3,2,5,3,4,3,4,4,4,5,4,3,3,2,3,3,2,3,4,3,4,2,5,1,2,3,1
+EMP0308,Division 2,6.6,Blue collar,Operator,Afternoon,Yes,2,2,3,3,2,4,3,4,3,1,4,3,3,5,4,4,4,4,1,1,5,2,3,2,2,4,2,3,2,3,4,3
+EMP0309,Division 2,9.7,Blue collar,Senior operator,Morning,Yes,2,2,5,3,3,4,3,3,3,3,4,3,3,5,5,4,2,3,3,3,2,4,3,3,2,3,3,2,2,3,4,4
+EMP0310,Division 2,14.9,Blue collar,Operator,Day (office),Yes,2,2,4,3,2,2,3,2,3,2,3,5,2,4,4,4,4,3,4,4,3,2,4,4,3,2,4,2,3,3,3,3
+EMP0311,Division 2,8.2,Blue collar,Operator,Morning,No,2,2,4,3,4,3,4,3,4,2,5,3,6,3,2,2,3,3,3,3,2,4,3,4,3,4,4,4,2,4,2,4
+EMP0312,Division 2,7.6,Blue collar,Operator,Morning,No,3,3,4,2,3,4,3,2,2,2,4,3,2,4,4,3,4,4,2,3,3,1,3,2,4,2,4,3,3,5,4,4
+EMP0313,Division 2,9.2,Blue collar,Operator,Morning,Yes,2,2,3,3,3,4,3,3,4,2,4,5,4,3,2,5,4,3,4,3,3,4,4,3,3,3,3,3,2,4,3,4
+EMP0314,Division 2,9.8,Blue collar,Team lead,Day (office),Yes,2,2,3,3,3,4,2,3,3,3,3,3,5,3,4,3,2,5,4,3,3,3,3,5,4,4,3,2,3,4,4,4
+EMP0315,Division 2,4.1,White collar,Engineer,Night,Yes,1,3,3,2,2,3,3,2,3,3,2,3,4,2,3,5,4,3,3,4,2,3,2,3,3,2,3,4,3,4,3,3
+EMP0316,Division 2,5.5,Blue collar,Operator,Night,No,2,4,3,4,3,3,3,3,2,2,3,4,4,4,5,3,2,3,4,3,4,3,4,2,4,3,3,3,2,3,2,3
+EMP0317,Division 2,1.8,Blue collar,Operator,Afternoon,No,2,3,4,2,3,4,4,2,3,2,3,4,3,3,5,3,2,2,3,3,4,4,3,3,3,3,4,2,2,2,3,2
+EMP0318,Division 2,4.9,Blue collar,Operator,Afternoon,No,2,2,3,3,2,4,2,3,3,2,4,5,5,4,3,3,2,2,3,4,3,4,3,3,2,3,3,2,1,3,4,3
+EMP0319,Division 2,3.5,Blue collar,Operator,Morning,Yes,2,2,3,3,2,3,3,2,3,2,2,3,4,2,3,3,3,2,2,4,3,2,2,2,3,2,3,3,3,4,3,3
+EMP0320,Division 2,4.1,Blue collar,Operator,Afternoon,No,2,2,4,2,3,4,3,3,3,2,4,4,4,4,4,3,3,2,3,5,3,2,2,3,2,2,1,3,3,4,2,3
+EMP0321,Division 2,25.1,Blue collar,Team lead,Morning,Yes,2,2,4,3,3,2,3,3,4,2,3,3,4,2,4,4,3,3,3,3,4,3,3,2,2,3,3,3,1,4,2,4
+EMP0322,Division 2,14.4,White collar,Specialist,Day (office),Yes,2,3,4,3,2,3,2,3,4,2,4,3,3,4,4,4,3,3,3,4,3,3,3,2,3,2,3,3,2,3,2,3
+EMP0323,Division 2,3.5,White collar,Engineer,Night,No,2,3,4,2,2,2,4,3,4,4,4,5,3,4,3,2,3,3,2,3,4,2,3,3,3,3,3,3,3,5,3,2
+EMP0324,Division 2,2.9,Blue collar,Operator,Afternoon,Yes,2,3,2,3,2,4,2,3,4,2,3,3,5,3,3,4,3,4,3,3,4,3,3,1,3,3,2,2,3,3,4,2
+EMP0325,Division 2,5.1,Blue collar,Operator,Morning,No,1,2,3,2,2,5,3,3,3,2,3,4,5,4,4,3,4,3,2,4,3,3,3,3,3,3,2,3,2,4,2,4
+EMP0326,Division 2,2.8,Blue collar,Operator,Night,Yes,2,3,4,2,2,4,2,2,3,3,3,4,3,3,5,3,4,5,1,3,3,3,3,1,3,2,3,2,2,4,4,2
+EMP0327,Division 2,9.1,Blue collar,Senior operator,Morning,No,2,2,4,4,2,3,4,3,4,2,4,3,3,4,4,4,3,2,4,3,4,4,3,1,3,4,3,3,1,4,2,3
+EMP0328,Division 2,9.0,Blue collar,Team lead,Morning,Yes,3,2,4,2,2,2,2,4,3,3,4,4,3,4,3,3,3,3,2,4,2,4,4,2,3,4,3,3,3,4,5,4
+EMP0329,Division 2,4.1,Blue collar,Operator,Morning,Yes,3,4,2,3,2,4,4,3,3,2,4,4,4,1,4,5,3,3,3,3,2,4,3,3,4,3,2,2,1,5,4,3
+EMP0330,Division 2,11.7,Blue collar,Senior operator,Afternoon,Yes,2,1,4,2,2,4,3,3,3,3,4,2,4,3,3,5,2,4,3,4,4,3,3,4,3,2,4,3,3,4,3,3
+EMP0331,Division 2,11.7,White collar,Engineer,Night,Yes,2,2,3,2,3,4,3,3,4,2,4,4,4,4,4,5,2,2,3,2,4,3,2,3,3,2,4,3,2,4,2,3
+EMP0332,Division 2,4.7,Blue collar,Operator,Morning,Yes,3,2,4,3,2,5,3,3,3,2,5,3,3,3,6,3,4,2,3,4,3,3,2,3,3,3,3,2,3,4,3,2
+EMP0333,Division 2,4.0,Blue collar,Operator,Morning,Yes,3,4,3,3,3,3,3,3,3,2,3,4,3,5,3,3,3,3,3,4,3,2,3,3,3,3,3,3,2,4,3,3
+EMP0334,Division 2,5.8,Blue collar,Operator,Afternoon,Yes,2,4,3,3,3,3,2,1,4,2,4,2,5,3,4,4,2,4,3,3,3,3,2,2,2,3,3,3,2,4,2,3
+EMP0335,Division 2,10.8,White collar,Supervisor,Night,Yes,4,3,4,4,1,3,2,2,3,3,4,3,3,3,3,3,2,3,3,3,3,4,3,3,2,3,3,3,1,3,3,3
+EMP0336,Division 2,23.9,White collar,Specialist,Morning,Yes,3,2,4,5,3,4,3,4,1,1,4,4,3,2,4,3,3,2,4,3,4,3,2,2,4,3,3,3,1,4,2,4
+EMP0337,Division 2,10.7,Blue collar,Operator,Morning,Yes,3,4,2,3,3,2,2,2,4,2,4,4,3,5,4,3,4,2,3,3,3,2,3,3,2,3,4,3,3,3,2,3
+EMP0338,Division 2,3.3,Blue collar,Team lead,Day (office),No,2,3,3,2,2,4,2,3,3,2,3,4,3,3,3,4,4,4,3,3,3,3,3,3,3,2,4,4,1,4,3,4
+EMP0339,Division 2,9.4,Blue collar,Team lead,Day (office),No,3,3,3,3,2,3,5,3,3,2,5,2,5,3,6,3,3,3,2,4,3,2,2,2,4,2,2,3,2,4,3,4
+EMP0340,Division 2,8.2,Blue collar,Senior operator,Day (office),Yes,2,3,3,2,3,4,2,2,4,2,4,5,4,4,3,4,4,2,3,4,2,4,2,3,3,2,2,2,3,3,4,4
+EMP0341,Division 2,7.9,Blue collar,Team lead,Night,Yes,2,2,3,3,3,4,4,3,2,1,4,4,5,4,4,4,3,4,3,3,4,3,3,3,4,4,2,3,3,3,3,4
+EMP0342,Division 2,2.9,Blue collar,Operator,Morning,No,3,2,2,2,2,3,2,3,5,2,4,5,4,4,2,4,3,4,3,3,3,3,3,4,3,4,2,2,2,2,3,2
+EMP0343,Division 2,9.3,Blue collar,Senior operator,Morning,Yes,3,2,4,4,2,3,3,4,3,2,5,4,4,6,4,3,1,4,3,3,4,3,3,2,2,3,3,4,1,3,3,2
+EMP0344,Division 2,7.5,Blue collar,Senior operator,Morning,Yes,3,3,3,3,3,3,3,2,3,2,3,4,3,4,5,4,3,2,3,3,2,3,3,3,2,4,3,4,3,4,3,3
+EMP0345,Division 2,3.2,Blue collar,Team lead,Morning,Yes,3,3,5,1,2,3,4,4,3,3,3,3,3,3,3,3,3,2,3,2,3,3,3,2,4,3,3,3,3,4,3,2
+EMP0346,Division 2,20.3,White collar,Specialist,Day (office),Yes,1,2,4,2,2,4,3,3,4,3,4,3,3,3,2,3,4,3,4,2,4,3,3,3,2,3,3,3,2,5,4,3
+EMP0347,Division 2,2.9,Blue collar,Operator,Night,Yes,2,3,4,3,3,3,4,2,3,2,3,5,3,3,4,3,2,3,4,5,5,2,3,3,4,2,4,3,2,4,3,4
+EMP0348,Division 2,10.1,Blue collar,Senior operator,Night,Yes,3,1,3,3,2,3,2,3,2,2,4,5,4,2,4,4,3,3,3,3,2,4,3,3,2,2,3,3,2,4,3,4
+EMP0349,Division 2,6.9,Blue collar,Operator,Morning,Yes,2,3,5,2,2,3,3,3,3,1,5,3,4,4,4,3,4,4,2,3,3,3,2,2,4,2,3,2,3,3,3,3
+EMP0350,Division 2,6.0,Blue collar,Operator,Day (office),Yes,5,3,4,3,3,3,3,3,4,2,4,1,5,4,5,5,3,2,2,4,4,3,2,3,5,2,4,3,3,3,3,3
+EMP0351,Division 2,16.0,Blue collar,Operator,Night,Yes,3,3,5,1,2,4,2,3,3,3,3,3,3,3,3,4,1,4,3,2,3,3,2,2,2,2,3,2,2,3,2,3
+EMP0352,Division 2,13.3,Blue collar,Team lead,Morning,Yes,2,2,4,3,1,4,3,2,3,2,4,3,4,3,3,3,3,2,5,2,4,3,3,1,2,3,4,3,1,3,3,2
+EMP0353,Division 2,6.9,Blue collar,Operator,Night,Yes,2,3,4,3,2,5,3,2,3,2,4,3,3,5,3,5,3,4,3,3,3,2,4,2,4,3,3,3,4,3,3,3
+EMP0354,Division 2,4.2,Blue collar,Operator,Morning,Yes,2,3,3,2,2,3,3,3,2,4,4,4,4,2,4,4,2,3,3,4,4,2,3,3,3,2,4,4,2,3,3,3
+EMP0355,Division 2,5.5,Blue collar,Operator,Morning,No,2,3,3,2,3,3,5,3,5,3,4,4,4,2,4,3,3,3,3,3,3,3,2,3,4,2,2,3,3,3,3,3
+EMP0356,Division 2,6.3,Blue collar,Team lead,Night,Yes,2,2,4,3,3,3,2,3,3,3,4,4,3,3,3,5,2,3,2,1,4,3,2,1,3,3,3,3,2,4,3,3
+EMP0357,Division 2,13.5,Blue collar,Operator,Night,Yes,2,3,3,2,1,3,4,3,4,3,4,4,4,2,4,4,1,2,2,4,3,3,3,4,4,2,2,3,3,4,3,3
+EMP0358,Division 2,9.7,Blue collar,Senior operator,Morning,Yes,2,4,4,3,3,5,3,3,1,1,5,2,3,4,4,4,4,3,1,3,3,3,2,3,3,3,4,4,3,3,3,3
+EMP0359,Division 2,13.8,Blue collar,Team lead,Morning,No,3,1,4,2,2,4,3,2,3,2,3,3,2,3,4,3,3,3,4,2,4,5,2,2,2,2,3,3,3,4,3,3
+EMP0360,Division 2,2.8,Blue collar,Operator,Day (office),Yes,3,2,4,2,4,3,2,4,3,2,3,5,4,3,3,5,4,4,1,3,3,2,4,3,3,3,3,3,4,4,3,2
+EMP0361,Division 2,14.5,Blue collar,Operator,Night,Yes,3,3,4,1,3,3,2,3,3,2,5,4,5,5,3,4,4,4,3,3,3,3,2,3,2,2,2,3,2,4,3,3
+EMP0362,Division 2,17.4,Blue collar,Senior operator,Night,No,1,3,4,3,2,4,3,3,4,2,4,4,3,3,2,4,3,4,2,3,2,4,3,3,4,3,4,3,2,4,4,4
+EMP0363,Division 2,4.5,White collar,Supervisor,Morning,Yes,3,3,4,2,2,3,2,3,4,1,4,4,5,4,4,3,3,3,2,4,3,3,4,3,3,3,2,3,3,3,3,4
+EMP0364,Division 2,12.5,White collar,Specialist,Morning,No,3,2,4,2,3,3,2,3,2,2,4,4,4,5,4,4,3,3,4,3,4,3,2,2,3,3,4,1,3,3,3,3
+EMP0365,Division 2,16.6,Blue collar,Operator,Morning,Yes,3,2,3,3,2,3,2,3,2,3,4,2,3,3,4,4,4,4,3,3,3,4,2,2,3,3,2,2,3,4,3,3
+EMP0366,Division 2,5.1,White collar,Supervisor,Morning,No,3,2,3,3,3,4,4,3,2,3,4,3,3,4,4,3,3,3,2,3,3,3,3,2,3,3,2,3,2,5,4,4
+EMP0367,Division 2,3.4,Blue collar,Operator,Morning,No,3,3,5,2,4,3,3,3,3,2,2,4,4,3,4,2,4,2,2,2,4,3,2,4,2,4,4,4,3,5,3,4
+EMP0368,Division 2,8.8,White collar,Specialist,Morning,No,2,2,3,3,2,4,3,4,3,2,4,5,3,4,4,4,3,3,2,4,3,3,3,3,3,4,2,3,2,4,3,3
+EMP0369,Division 2,1.7,Blue collar,Senior operator,Afternoon,Yes,3,2,5,3,3,4,3,4,3,1,4,4,3,2,4,2,2,2,3,3,4,3,3,5,4,2,3,2,2,4,3,4
+EMP0370,Division 2,14.4,Blue collar,Operator,Morning,Yes,2,2,4,2,4,4,3,3,3,2,4,2,2,2,2,4,3,5,3,3,4,2,3,2,2,1,3,2,2,5,2,3
+EMP0371,Division 2,4.0,Blue collar,Senior operator,Night,No,3,3,4,4,3,4,4,2,4,3,3,4,3,3,3,3,3,4,4,3,4,3,4,2,2,3,2,3,2,4,3,3
+EMP0372,Division 2,6.4,Blue collar,Senior operator,Morning,No,3,2,4,2,1,3,2,4,3,2,5,3,4,3,4,5,2,5,2,3,4,2,3,3,4,3,3,2,2,2,4,3
+EMP0373,Division 2,11.7,White collar,Supervisor,Afternoon,No,2,2,5,3,3,3,3,3,4,4,4,3,4,3,3,3,2,3,3,2,4,3,3,4,2,3,4,3,1,3,3,2
+EMP0374,Division 2,10.8,White collar,Engineer,Morning,Yes,2,1,3,3,2,4,3,3,3,2,3,3,3,3,4,4,3,3,3,3,4,3,1,2,4,3,4,3,4,4,1,4
+EMP0375,Division 2,11.5,Blue collar,Operator,Afternoon,No,2,1,5,3,4,4,2,2,3,2,4,4,4,4,3,3,3,3,4,4,4,4,3,3,2,3,3,3,3,3,3,3
+EMP0376,Division 2,4.4,Blue collar,Senior operator,Morning,Yes,2,2,3,3,2,3,5,3,3,1,4,5,4,3,4,4,3,4,3,4,3,4,4,3,2,3,4,3,2,3,2,3
+EMP0377,Division 2,9.3,White collar,Engineer,Day (office),Yes,3,1,2,3,5,4,3,3,2,2,2,4,4,3,4,5,3,2,3,4,4,3,1,3,3,3,2,3,2,3,3,4
+EMP0378,Division 2,12.9,Blue collar,Operator,Night,Yes,2,4,5,2,4,3,3,2,3,1,4,4,4,3,4,3,4,1,3,3,4,3,3,2,2,2,3,3,1,4,4,3
+EMP0379,Division 2,5.0,Blue collar,Team lead,Afternoon,Yes,4,1,4,2,2,2,4,3,3,3,4,4,4,3,4,4,4,3,2,3,3,3,3,3,3,2,3,2,2,4,4,1
+EMP0380,Division 2,21.2,Blue collar,Operator,Morning,No,1,2,5,2,3,3,4,3,2,3,4,4,3,3,4,6,2,2,4,3,4,3,2,3,3,3,3,2,3,4,4,3
+EMP0381,Division 2,6.6,Blue collar,Team lead,Afternoon,Yes,3,2,4,2,3,5,3,5,2,3,5,4,3,2,2,4,3,4,3,2,4,3,3,3,1,3,3,1,3,4,3,3
+EMP0382,Division 2,1.6,Blue collar,Operator,Night,Yes,2,2,3,2,3,5,3,3,2,1,3,2,3,4,5,4,3,4,4,3,4,2,4,3,4,2,2,3,3,4,3,3
+EMP0383,Division 2,6.6,Blue collar,Operator,Morning,Yes,1,2,3,3,3,3,2,3,3,2,3,4,3,3,5,4,3,2,4,2,5,3,3,4,3,3,1,4,3,3,2,3
+EMP0384,Division 2,16.5,Blue collar,Senior operator,Afternoon,Yes,3,2,4,4,3,4,3,2,3,3,3,3,3,4,3,4,3,4,3,3,4,2,3,2,2,3,3,3,3,3,3,4
+EMP0385,Division 2,3.9,Blue collar,Senior operator,Night,Yes,2,2,3,3,3,3,3,4,4,3,3,5,2,2,4,2,2,4,4,4,4,3,2,2,2,4,3,3,2,4,2,2
+EMP0386,Division 2,3.6,White collar,Specialist,Night,Yes,2,2,2,3,2,3,3,3,3,2,4,3,5,3,3,5,2,2,3,4,3,1,3,2,4,3,4,2,3,3,2,3
+EMP0387,Division 2,9.8,Blue collar,Operator,Night,Yes,1,4,2,2,2,3,4,2,3,1,4,4,3,5,2,2,3,3,3,2,3,2,3,3,3,2,3,3,2,3,4,4
+EMP0388,Division 2,3.4,Blue collar,Senior operator,Night,No,2,2,4,2,3,4,3,3,3,2,4,2,5,3,3,3,3,3,3,3,3,2,3,2,4,2,2,3,2,4,2,3
+EMP0389,Division 2,3.3,Blue collar,Operator,Day (office),No,3,3,5,2,3,2,2,2,2,2,4,4,4,3,3,5,4,4,3,3,4,4,3,3,3,3,3,4,2,3,4,3
+EMP0390,Division 2,4.2,Blue collar,Operator,Afternoon,Yes,3,3,4,3,3,1,4,3,4,2,4,4,4,3,3,3,2,2,3,3,4,4,5,3,3,3,3,2,2,3,4,1
+EMP0391,Division 2,19.1,Blue collar,Operator,Afternoon,Yes,2,3,4,3,3,4,4,4,2,3,3,4,3,3,3,3,2,3,4,4,4,3,4,1,3,3,3,2,3,4,3,2
+EMP0392,Division 2,10.5,Blue collar,Senior operator,Night,Yes,3,1,3,3,1,3,4,3,2,2,4,3,4,5,3,4,3,3,3,4,3,4,4,3,3,4,3,2,2,4,2,3
+EMP0393,Division 2,7.9,Blue collar,Operator,Night,No,2,2,4,4,3,3,3,3,3,1,4,3,4,4,4,3,4,3,3,5,4,4,2,2,4,2,2,2,2,5,2,4
+EMP0394,Division 2,4.4,Blue collar,Operator,Day (office),Yes,1,3,4,3,3,4,4,4,3,1,4,4,4,4,3,3,2,3,3,4,3,3,2,3,2,3,3,2,3,4,3,2
+EMP0395,Division 2,12.8,Blue collar,Operator,Morning,Yes,1,2,3,2,4,4,5,4,3,1,3,3,4,2,4,4,4,3,5,3,5,2,3,2,3,4,3,3,3,4,3,3
+EMP0396,Division 2,11.1,Blue collar,Operator,Afternoon,Yes,2,4,4,2,2,4,3,4,2,4,4,4,3,4,4,3,3,3,2,4,2,3,2,4,3,2,4,2,3,3,3,3
+EMP0397,Division 2,19.9,Blue collar,Operator,Morning,No,2,3,4,3,4,4,2,3,3,3,5,2,3,5,6,3,2,5,2,3,4,3,4,3,3,3,3,1,3,3,2,4
+EMP0398,Division 2,3.8,Blue collar,Senior operator,Morning,Yes,3,2,3,3,3,3,2,4,3,2,3,3,2,5,5,4,2,3,2,2,3,2,4,3,3,2,4,4,2,3,4,2
+EMP0399,Division 2,3.5,Blue collar,Operator,Morning,Yes,3,2,5,3,3,4,3,2,3,2,3,5,4,4,4,4,3,2,3,4,4,3,2,3,2,3,2,2,2,3,4,3
+EMP0400,Division 2,1.6,Blue collar,Team lead,Night,No,3,2,4,4,4,5,2,3,2,2,3,4,4,3,3,3,3,4,3,4,4,3,4,2,4,2,3,3,2,4,3,3
+EMP0401,Division 2,10.6,White collar,Specialist,Morning,No,2,2,4,4,3,3,3,2,3,3,4,4,5,4,4,3,3,3,3,3,4,3,3,2,2,3,3,3,2,4,3,3
+EMP0402,Division 2,8.9,Blue collar,Operator,Night,No,1,2,4,3,3,3,3,3,3,2,5,5,4,4,4,4,2,2,3,3,4,3,5,3,3,3,3,4,2,4,2,3
+EMP0403,Division 2,5.8,White collar,Specialist,Night,Yes,3,3,3,2,3,2,4,1,2,3,3,2,3,2,3,5,3,5,3,4,4,4,3,2,4,2,2,3,2,4,3,3
+EMP0404,Division 2,1.6,White collar,Engineer,Morning,No,3,1,3,2,2,3,4,3,3,2,4,3,2,3,4,3,3,3,3,4,3,3,3,4,3,3,4,2,4,3,3,3
+EMP0405,Division 2,17.6,Blue collar,Senior operator,Morning,No,1,3,4,2,3,4,4,2,2,4,4,3,4,4,2,4,3,3,3,2,4,3,4,2,3,3,3,2,2,4,3,3
+EMP0406,Division 2,8.6,Blue collar,Team lead,Afternoon,No,2,3,4,3,2,5,1,4,4,3,3,4,2,4,3,4,2,3,4,3,3,3,4,3,2,3,2,4,3,5,3,3
+EMP0407,Division 2,15.5,Blue collar,Operator,Night,No,2,1,4,4,3,4,4,3,3,3,4,4,3,2,4,4,2,4,3,3,3,3,3,4,2,2,3,2,2,4,3,3
+EMP0408,Division 2,16.5,Blue collar,Senior operator,Night,No,2,3,4,3,1,4,3,4,2,2,3,3,3,4,3,4,5,2,4,4,4,4,3,2,4,3,3,3,3,4,3,3
+EMP0409,Division 2,10.4,Blue collar,Operator,Night,Yes,2,3,3,3,3,3,3,2,4,3,4,4,4,4,3,3,2,3,4,4,4,2,3,3,3,3,5,3,3,4,3,3
+EMP0410,Division 2,11.4,Blue collar,Operator,Day (office),Yes,2,3,4,2,3,3,2,4,3,2,5,3,4,4,3,3,3,5,3,4,4,4,2,3,3,2,4,3,3,4,3,2
+EMP0411,Division 2,4.9,Blue collar,Team lead,Afternoon,No,2,2,3,3,2,3,2,4,3,2,4,5,4,3,3,4,2,3,3,2,3,3,3,3,4,2,3,3,3,3,2,3
+EMP0412,Division 2,8.2,Blue collar,Operator,Day (office),Yes,2,3,4,3,3,4,2,3,4,3,3,3,2,4,5,5,2,2,2,3,4,3,2,2,2,3,3,3,3,3,3,2
+EMP0413,Division 2,14.0,White collar,Engineer,Night,Yes,2,3,4,1,2,3,1,3,3,1,4,4,4,4,3,3,3,3,3,4,3,3,2,2,3,3,4,3,3,4,3,3
+EMP0414,Division 2,4.2,Blue collar,Operator,Night,Yes,2,2,3,2,4,3,3,3,3,2,5,3,2,3,4,4,3,3,3,3,5,2,3,3,3,3,4,3,4,4,3,3
+EMP0415,Division 2,13.4,White collar,Specialist,Morning,No,2,4,4,3,3,5,2,3,3,3,4,4,4,4,4,3,4,4,3,2,3,3,4,4,3,2,1,3,1,3,3,4
+EMP0416,Division 2,12.9,White collar,Engineer,Day (office),Yes,3,2,3,3,2,2,5,3,2,3,4,3,3,3,3,4,3,3,3,3,2,3,3,3,3,2,3,3,3,2,3,4
+EMP0417,Division 2,12.7,White collar,Supervisor,Afternoon,No,3,3,3,2,2,3,3,2,2,2,3,4,2,5,4,5,3,4,3,3,3,3,3,3,3,2,3,2,3,3,3,2
+EMP0418,Division 2,7.8,White collar,Engineer,Night,Yes,2,3,4,1,3,3,4,3,4,4,3,4,3,4,3,4,2,2,2,4,3,3,4,2,2,2,2,3,2,4,3,3
+EMP0419,Division 2,4.5,Blue collar,Operator,Morning,Yes,3,3,3,2,4,4,2,2,3,1,5,4,3,3,5,3,4,2,4,3,3,4,2,3,3,3,4,2,3,3,3,4
+EMP0420,Division 2,21.1,Blue collar,Senior operator,Afternoon,Yes,2,1,3,3,3,3,3,2,3,3,4,4,5,3,3,3,4,3,3,3,5,4,1,3,3,3,4,2,1,3,2,3
+EMP0421,Division 2,17.0,Blue collar,Operator,Morning,Yes,3,3,3,2,3,4,3,3,2,3,3,4,4,4,3,5,2,4,2,3,3,2,1,2,4,2,3,3,2,4,3,3
+EMP0422,Division 2,7.9,Blue collar,Senior operator,Morning,Yes,2,2,3,3,3,3,2,3,3,4,4,3,4,4,3,4,3,3,3,4,3,3,2,2,3,3,4,3,1,4,3,2
+EMP0423,Division 2,8.9,White collar,Engineer,Morning,Yes,1,2,3,3,2,3,3,3,3,1,5,3,5,3,3,3,3,3,5,3,3,4,3,1,2,3,4,3,3,4,4,4
+EMP0424,Division 2,6.3,White collar,Engineer,Night,Yes,3,4,4,3,2,4,3,3,3,2,5,4,4,5,5,3,3,3,3,3,3,3,2,2,3,3,2,3,2,3,2,4
+EMP0425,Division 2,1.8,Blue collar,Operator,Morning,No,3,2,2,1,2,2,3,2,3,3,4,4,4,4,4,4,3,4,3,3,5,3,3,3,3,1,2,2,4,4,2,3
+EMP0426,Division 2,7.2,Blue collar,Team lead,Morning,Yes,2,2,5,2,2,3,4,3,4,1,4,3,4,4,4,4,3,3,3,3,3,3,4,4,4,1,3,3,3,4,3,4
+EMP0427,Division 2,10.5,Blue collar,Senior operator,Morning,Yes,2,2,3,2,3,3,3,2,3,1,4,4,3,4,3,4,3,4,3,2,4,3,2,3,3,2,3,3,3,3,3,1
+EMP0428,Division 2,5.1,Blue collar,Senior operator,Afternoon,Yes,2,1,3,3,3,4,3,2,2,2,4,2,5,4,4,6,3,3,2,4,4,3,3,3,3,2,2,2,2,5,2,4
+EMP0429,Division 2,6.1,Blue collar,Operator,Morning,Yes,2,3,4,3,4,2,3,3,3,2,3,4,2,3,3,4,4,4,3,2,3,2,3,3,4,3,3,3,2,3,2,3
+EMP0430,Division 2,6.1,Blue collar,Senior operator,Morning,Yes,2,2,4,3,3,4,3,2,3,3,4,4,4,4,4,3,4,3,4,3,4,3,2,3,3,1,3,4,3,4,3,3
+EMP0431,Division 2,8.2,White collar,Specialist,Afternoon,No,3,3,4,2,2,3,3,2,3,2,5,4,2,4,3,3,3,2,3,4,3,2,4,3,4,4,3,3,2,3,2,3
+EMP0432,Division 2,6.5,Blue collar,Team lead,Night,No,3,3,3,2,1,4,3,1,5,2,3,4,4,4,3,3,2,3,2,3,5,3,3,4,4,3,2,3,1,3,4,4
+EMP0433,Division 2,4.1,White collar,Specialist,Morning,No,3,2,4,2,4,4,3,3,3,2,4,2,5,3,4,4,3,3,3,3,5,2,3,3,2,4,3,2,1,3,3,2
+EMP0434,Division 2,8.2,Blue collar,Senior operator,Morning,Yes,2,3,4,3,4,3,4,2,3,3,4,3,3,4,4,3,3,3,3,4,3,3,4,4,4,2,3,4,2,4,2,4
+EMP0435,Division 2,10.2,White collar,Engineer,Morning,Yes,2,2,5,2,2,3,4,3,3,3,3,3,3,3,4,5,1,3,3,2,5,3,3,3,4,3,2,2,4,4,3,3
+EMP0436,Division 2,8.7,Blue collar,Operator,Day (office),Yes,2,4,2,3,4,4,3,2,4,2,3,4,4,5,3,5,3,2,4,3,3,3,3,3,4,3,3,2,4,4,4,4
+EMP0437,Division 2,1.6,White collar,Specialist,Afternoon,Yes,2,3,4,3,3,3,3,3,4,1,5,2,3,3,3,4,3,4,3,4,4,4,4,1,4,3,2,3,3,5,3,3
+EMP0438,Division 2,11.4,Blue collar,Team lead,Afternoon,Yes,1,2,3,3,3,3,3,3,3,2,4,4,5,3,4,3,3,4,3,3,4,4,2,3,4,2,3,3,3,3,4,2
+EMP0439,Division 2,3.2,Blue collar,Operator,Morning,Yes,2,2,4,2,4,4,3,4,2,3,2,4,4,3,3,3,2,4,4,3,3,1,4,3,3,3,2,3,2,3,4,4
+EMP0440,Division 2,10.0,Blue collar,Operator,Afternoon,Yes,2,2,4,2,4,2,3,3,2,2,3,3,3,3,5,5,3,3,4,4,2,3,2,2,2,3,4,2,2,3,2,3
+EMP0441,Division 2,10.3,White collar,Engineer,Morning,No,3,2,3,2,3,4,3,2,4,2,3,4,3,4,2,3,4,3,3,3,2,3,2,2,3,2,3,4,3,3,4,4
+EMP0442,Division 2,2.3,Blue collar,Operator,Morning,Yes,2,4,2,2,3,4,4,2,3,3,3,3,3,3,3,4,3,3,4,4,5,3,3,3,2,3,3,3,4,4,2,3
+EMP0443,Division 2,13.1,Blue collar,Operator,Afternoon,Yes,3,2,3,1,3,3,3,3,4,1,4,3,3,5,3,4,4,4,3,4,3,2,2,3,4,1,3,3,2,4,3,3
+EMP0444,Division 2,21.0,Blue collar,Team lead,Afternoon,Yes,1,2,3,2,2,4,3,2,4,2,3,3,3,3,1,4,2,4,2,4,3,2,3,2,3,3,2,3,2,3,3,4
+EMP0445,Division 2,6.2,Blue collar,Senior operator,Morning,No,2,2,3,3,3,3,2,1,3,2,3,3,3,4,2,3,3,3,3,4,3,3,3,2,4,4,3,3,2,4,4,4
+EMP0446,Division 2,10.0,White collar,Supervisor,Night,Yes,1,2,3,3,2,3,3,4,3,2,3,4,3,3,4,4,3,2,2,3,4,3,2,3,2,2,2,4,2,5,4,3
+EMP0447,Division 2,5.5,Blue collar,Senior operator,Day (office),Yes,2,2,4,2,2,4,3,3,2,2,4,3,5,4,4,4,3,4,3,4,3,3,3,3,4,3,3,3,3,5,3,3
+EMP0448,Division 2,3.2,Blue collar,Operator,Afternoon,No,2,2,3,3,2,3,2,3,3,2,4,3,3,4,5,4,3,3,2,3,3,3,3,3,3,3,3,2,1,4,3,4
+EMP0449,Division 2,13.9,White collar,Specialist,Afternoon,Yes,3,3,3,2,2,4,3,2,3,1,4,5,4,3,5,3,3,3,3,2,4,3,3,4,2,3,2,3,3,2,3,3
+EMP0450,Division 2,10.2,White collar,Engineer,Day (office),Yes,3,3,3,3,3,3,3,3,3,2,4,4,4,5,4,3,1,3,3,3,3,3,3,3,4,3,2,3,3,4,3,4
+EMP0451,Division 2,4.7,White collar,Supervisor,Night,Yes,2,3,4,4,2,3,3,2,3,1,5,2,4,3,4,4,2,2,2,3,3,3,3,3,4,2,3,3,2,4,3,3
+EMP0452,Division 2,3.3,Blue collar,Operator,Afternoon,Yes,2,1,4,3,3,3,3,3,2,2,4,3,4,4,4,4,3,4,3,4,4,4,3,2,3,2,3,3,3,4,4,4
+EMP0453,Division 2,21.7,Blue collar,Operator,Night,Yes,2,3,3,3,1,3,2,2,4,3,4,4,3,3,1,3,1,2,4,3,4,2,3,2,3,3,3,3,3,4,4,3
+EMP0454,Division 2,2.6,Blue collar,Operator,Morning,Yes,2,1,5,2,3,4,3,4,3,2,4,4,4,4,2,3,3,3,2,3,3,4,3,4,3,3,3,3,3,4,3,3
+EMP0455,Division 2,11.1,Blue collar,Operator,Afternoon,Yes,3,3,2,3,3,3,3,2,4,1,4,2,4,3,4,4,3,3,3,4,4,2,3,3,3,2,3,3,1,3,3,3
+EMP0456,Division 2,8.5,Blue collar,Operator,Morning,Yes,1,3,4,1,2,4,4,4,3,2,4,5,3,3,4,2,2,4,2,2,3,2,2,2,2,3,3,2,2,3,3,3
+EMP0457,Division 2,12.3,Blue collar,Operator,Morning,Yes,3,2,3,2,2,4,3,3,3,2,4,4,2,4,4,5,2,3,3,4,5,3,2,3,3,4,3,4,2,4,2,3
+EMP0458,Division 2,18.3,Blue collar,Senior operator,Afternoon,No,2,2,4,3,1,3,2,3,3,3,3,4,3,5,3,3,3,4,3,3,3,4,3,3,4,2,1,2,1,4,3,4
+EMP0459,Division 2,0.7,Blue collar,Senior operator,Morning,Yes,3,2,5,3,3,4,3,3,4,2,4,5,3,4,4,2,4,3,2,3,4,1,3,3,5,2,2,4,2,3,4,4
+EMP0460,Division 2,3.6,White collar,Engineer,Night,Yes,3,3,4,3,3,3,4,3,4,3,3,4,3,5,5,3,2,3,2,3,3,3,3,2,4,2,4,3,2,4,2,3
+EMP0461,Division 2,7.0,Blue collar,Operator,Afternoon,No,1,2,3,3,3,3,4,4,5,3,3,4,4,4,4,4,2,3,3,4,4,4,4,3,3,2,3,2,3,4,4,3
+EMP0462,Division 2,19.2,Blue collar,Team lead,Afternoon,No,2,4,3,2,3,5,3,3,3,2,3,5,4,3,4,3,2,3,4,2,4,4,2,3,3,2,4,3,2,5,4,3
+EMP0463,Division 2,5.7,White collar,Engineer,Morning,No,2,3,3,3,3,4,3,2,3,3,4,4,5,5,3,4,1,2,3,4,3,3,2,3,2,3,3,3,2,4,3,4
+EMP0464,Division 2,5.0,Blue collar,Team lead,Morning,Yes,1,3,3,2,3,4,4,3,4,2,4,3,3,4,4,4,3,3,3,3,4,3,3,3,2,2,3,3,3,3,3,4
+EMP0465,Division 2,1.1,Blue collar,Operator,Afternoon,No,2,2,4,2,3,4,4,4,2,2,3,4,4,3,4,3,4,3,3,3,4,3,3,3,3,2,3,2,1,4,2,1
+EMP0466,Division 2,4.6,White collar,Specialist,Day (office),Yes,4,3,3,3,3,3,3,4,4,2,3,3,4,4,4,3,4,3,3,3,2,3,3,3,5,3,5,3,1,5,3,3
+EMP0467,Division 2,10.9,White collar,Specialist,Morning,Yes,3,1,3,3,1,4,4,4,2,3,3,4,5,3,4,3,2,3,3,3,2,2,4,3,4,2,3,3,2,4,4,3
+EMP0468,Division 2,7.0,Blue collar,Senior operator,Morning,Yes,4,2,3,1,2,4,2,3,2,3,4,4,4,2,4,5,2,3,1,2,3,2,1,3,4,1,3,2,1,3,3,4
+EMP0469,Division 2,4.5,Blue collar,Team lead,Night,No,3,2,3,3,4,2,2,3,4,3,3,2,3,4,3,5,3,2,2,4,3,3,4,3,2,3,2,2,1,3,4,3
+EMP0470,Division 2,21.8,Blue collar,Operator,Morning,Yes,2,3,3,3,1,5,3,4,3,3,3,4,2,4,4,2,3,3,2,4,3,3,3,3,4,1,4,3,3,3,2,4
+EMP0471,Division 2,6.2,Blue collar,Operator,Night,Yes,2,2,5,3,3,3,3,3,3,3,4,4,4,5,4,4,3,3,3,3,4,3,3,2,3,2,3,2,3,5,2,2
+EMP0472,Division 2,8.2,White collar,Specialist,Afternoon,Yes,3,2,4,4,3,4,3,2,5,3,4,3,3,4,3,4,3,3,3,3,3,3,1,3,1,1,3,3,3,4,4,3
+EMP0473,Division 2,4.3,Blue collar,Senior operator,Afternoon,Yes,3,2,3,2,3,3,3,3,4,1,4,4,3,3,4,4,4,3,3,3,3,4,4,2,3,2,3,3,3,3,3,4
+EMP0474,Division 2,3.1,Blue collar,Operator,Morning,No,2,2,4,2,2,4,2,2,3,3,3,4,3,4,4,3,2,3,3,4,3,4,2,2,2,3,3,3,3,4,3,2
+EMP0475,Division 2,11.8,Blue collar,Senior operator,Morning,Yes,1,1,3,2,3,2,3,2,2,3,3,4,4,4,3,2,3,2,2,4,3,2,2,3,2,3,3,3,1,4,4,5
+EMP0476,Division 2,2.0,Blue collar,Operator,Morning,Yes,5,3,2,3,2,4,3,2,2,2,4,4,5,5,5,4,4,2,4,3,2,3,3,2,3,4,2,4,3,5,4,4
+EMP0477,Division 2,10.3,Blue collar,Operator,Night,No,2,3,3,2,3,3,2,5,3,2,5,5,3,4,3,3,3,5,4,2,3,3,3,2,3,3,2,2,2,3,4,3
+EMP0478,Division 2,0.5,White collar,Specialist,Night,Yes,2,3,3,2,2,3,4,3,3,3,4,4,4,3,5,2,2,2,2,4,3,3,3,3,3,2,4,2,2,4,3,3
+EMP0479,Division 2,9.4,Blue collar,Operator,Night,No,2,3,4,2,3,5,2,3,2,3,4,4,4,3,4,3,2,3,3,2,4,3,3,2,3,2,3,2,3,4,3,3
+EMP0480,Division 2,3.4,Blue collar,Operator,Night,No,2,2,4,3,4,4,2,2,2,2,5,3,3,4,4,4,2,3,2,2,2,4,3,2,2,4,3,4,1,4,3,3
+EMP0481,Division 2,4.0,Blue collar,Operator,Morning,No,2,1,4,3,3,4,4,2,4,1,5,4,4,2,3,4,3,3,3,3,4,4,3,3,4,3,3,4,1,5,3,3
+EMP0482,Division 2,6.3,Blue collar,Operator,Afternoon,No,3,2,4,4,2,4,3,2,4,2,4,4,3,4,4,4,2,3,4,2,3,3,3,3,2,3,3,2,3,4,3,4
+EMP0483,Division 2,2.9,Blue collar,Senior operator,Afternoon,Yes,2,2,3,4,2,4,2,4,5,3,3,5,4,4,3,4,3,3,4,4,3,3,2,4,2,3,2,4,3,4,3,3
+EMP0484,Division 2,1.5,Blue collar,Senior operator,Night,Yes,2,2,3,2,2,4,3,3,2,3,4,4,3,4,3,3,2,3,3,4,4,4,2,2,3,3,2,3,2,4,3,3
+EMP0485,Division 2,6.7,Blue collar,Operator,Morning,Yes,2,2,3,2,3,3,3,3,3,2,4,2,4,4,3,4,1,3,3,3,5,2,3,3,3,2,3,4,2,4,4,2
+EMP0486,Division 2,12.2,Blue collar,Operator,Afternoon,Yes,2,2,3,2,2,4,5,3,3,2,3,2,3,5,3,3,3,3,3,4,3,3,3,3,4,3,2,3,3,3,4,3
+EMP0487,Division 2,8.8,Blue collar,Operator,Night,Yes,3,1,5,4,2,3,3,2,4,3,5,4,4,4,4,3,3,3,3,4,3,4,3,2,3,3,3,3,3,5,2,3
+EMP0488,Division 2,14.9,White collar,Specialist,Afternoon,Yes,3,2,3,2,3,4,3,4,4,2,3,3,3,3,5,3,3,4,4,3,4,3,2,3,3,2,4,4,2,4,3,4
+EMP0489,Division 2,1.7,Blue collar,Team lead,Morning,No,2,2,5,2,3,4,2,2,3,2,4,4,3,3,3,4,2,3,3,3,4,2,3,3,3,2,4,3,2,3,2,3
+EMP0490,Division 2,5.7,Blue collar,Team lead,Afternoon,Yes,2,3,4,2,2,2,2,4,3,2,3,4,1,3,5,4,2,3,2,5,4,3,2,2,3,4,3,4,2,2,3,3
+EMP0491,Division 2,7.8,Blue collar,Operator,Morning,Yes,2,2,4,3,2,4,2,3,3,1,4,3,5,4,3,3,3,4,2,4,5,3,4,3,3,3,3,3,3,2,4,4
+EMP0492,Division 2,4.0,Blue collar,Operator,Night,Yes,2,3,3,3,5,4,4,2,4,2,4,4,4,3,3,5,4,4,3,3,3,2,3,3,2,4,3,3,3,4,3,4
+EMP0493,Division 2,8.0,White collar,Supervisor,Day (office),Yes,3,4,3,2,3,5,3,2,4,3,4,3,3,4,4,4,3,4,3,4,4,5,4,2,3,1,3,2,2,3,3,3
+EMP0494,Division 2,14.4,Blue collar,Operator,Afternoon,No,2,3,3,3,2,3,3,2,2,2,3,4,3,5,3,4,3,2,2,3,4,3,2,2,4,2,2,2,2,3,3,2
+EMP0495,Division 2,10.5,White collar,Specialist,Afternoon,Yes,2,1,4,1,3,4,4,4,3,3,3,3,3,3,4,2,3,4,4,3,4,2,4,3,5,2,4,2,2,4,3,5
+EMP0496,Division 2,15.7,White collar,Specialist,Night,Yes,2,3,3,3,3,4,1,3,3,2,4,3,4,3,3,2,2,4,3,3,2,3,3,4,2,2,4,3,3,3,3,3
+EMP0497,Division 2,9.1,White collar,Engineer,Morning,Yes,2,4,3,3,3,4,4,1,4,3,5,3,2,4,3,4,4,2,3,4,3,4,3,2,3,2,4,3,2,4,2,3
+EMP0498,Division 2,7.1,Blue collar,Operator,Morning,Yes,1,2,5,2,3,3,3,3,5,3,5,3,3,4,4,4,4,3,3,2,4,3,3,4,3,3,4,3,1,4,2,3
+EMP0499,Division 2,18.4,Blue collar,Team lead,Day (office),Yes,2,3,4,2,3,4,3,3,3,4,3,4,5,5,3,3,3,4,3,3,5,3,2,2,4,3,3,4,3,4,4,3
+EMP0500,Division 2,8.2,Blue collar,Senior operator,Night,No,2,2,4,1,3,2,2,2,4,2,4,3,3,2,2,5,3,3,3,4,4,2,3,3,2,2,2,3,4,3,3,3
+EMP0501,Division 2,20.8,Blue collar,Operator,Morning,Yes,3,1,3,4,2,3,2,4,3,1,4,4,4,3,4,4,3,3,4,3,3,4,2,3,3,1,3,3,2,3,3,4
+EMP0502,Division 2,13.3,Blue collar,Operator,Morning,Yes,2,2,3,2,4,3,3,3,1,3,3,5,5,3,3,3,4,4,2,4,3,3,2,3,2,4,2,3,2,4,4,2
+EMP0503,Division 2,4.7,Blue collar,Operator,Night,Yes,3,4,4,3,2,3,5,3,3,4,5,4,4,2,3,4,4,2,3,4,5,4,3,2,3,2,3,3,2,3,2,3
+EMP0504,Division 2,6.6,Blue collar,Senior operator,Night,No,3,1,4,3,2,3,4,3,1,2,3,4,4,3,5,6,4,3,3,3,4,3,2,3,3,2,3,3,2,4,2,5
+EMP0505,Division 2,18.3,Blue collar,Operator,Night,No,3,2,2,4,2,4,4,2,3,3,4,4,4,4,3,3,3,3,3,3,3,4,2,4,4,3,3,3,3,5,3,3
+EMP0506,Division 2,14.9,Blue collar,Operator,Morning,Yes,3,2,4,2,2,3,3,2,4,3,5,4,3,3,2,4,2,3,4,3,3,2,2,3,2,3,4,2,2,4,3,3
+EMP0507,Division 2,12.0,White collar,Supervisor,Day (office),Yes,2,2,4,2,3,3,2,4,3,3,4,4,5,2,4,3,3,2,3,5,4,3,2,2,3,2,3,2,2,5,2,2
+EMP0508,Division 2,11.2,White collar,Engineer,Afternoon,No,2,2,3,3,3,4,2,3,2,2,4,4,3,6,3,4,3,3,3,4,4,4,4,3,3,3,3,4,1,4,3,3
+EMP0509,Division 2,2.7,Blue collar,Operator,Night,No,2,2,3,3,3,3,3,3,2,2,3,4,2,4,3,5,3,4,3,3,3,4,2,4,3,2,3,4,3,3,3,4
+EMP0510,Division 2,3.3,Blue collar,Operator,Afternoon,No,2,2,4,2,3,3,1,1,4,2,4,3,3,4,3,3,4,4,3,3,3,2,2,3,4,3,2,2,3,4,2,4
+EMP0511,Division 2,8.9,Blue collar,Operator,Morning,No,2,1,3,2,2,2,2,2,3,3,5,4,3,3,4,4,3,2,3,3,2,3,3,2,2,2,3,1,3,5,3,3
+EMP0512,Division 2,4.0,Blue collar,Operator,Day (office),Yes,3,3,4,2,3,3,3,3,4,3,4,4,3,4,3,5,4,4,3,3,4,3,3,2,4,2,1,3,2,3,1,3
+EMP0513,Division 2,6.3,White collar,Supervisor,Morning,Yes,3,3,3,2,3,2,3,3,3,2,5,4,3,3,5,4,2,3,3,2,3,3,4,1,3,3,2,3,4,3,3,4
+EMP0514,Division 2,6.0,White collar,Supervisor,Morning,No,3,3,3,3,1,4,3,4,2,2,4,3,5,2,2,4,3,2,3,3,4,3,3,3,4,3,3,2,1,3,3,4
+EMP0515,Division 2,10.9,Blue collar,Operator,Night,No,3,2,3,2,3,3,3,4,3,3,5,4,4,3,4,3,2,3,3,4,4,4,3,3,3,4,3,4,3,4,3,3
+EMP0516,Division 2,9.1,Blue collar,Operator,Afternoon,Yes,4,2,4,2,2,2,3,3,4,3,4,4,4,4,4,4,2,4,3,2,4,3,3,2,3,3,2,3,1,3,3,1
+EMP0517,Division 2,14.2,Blue collar,Senior operator,Night,Yes,2,2,4,2,4,4,2,3,3,2,4,4,4,5,3,3,3,4,3,4,3,3,3,3,3,2,3,3,2,5,3,3
+EMP0518,Division 2,9.2,Blue collar,Operator,Afternoon,No,3,3,3,3,2,4,2,3,3,2,4,4,3,4,3,4,2,3,3,4,4,3,3,2,4,2,2,3,3,4,1,4
+EMP0519,Division 2,8.7,Blue collar,Operator,Afternoon,Yes,2,3,4,2,2,2,2,4,3,2,4,4,2,4,4,5,3,3,2,3,3,3,3,3,4,4,3,2,3,4,2,2
+EMP0520,Division 2,7.6,Blue collar,Team lead,Day (office),No,3,3,3,2,2,4,2,4,3,3,3,5,4,3,3,4,3,3,3,4,4,3,4,3,3,4,5,3,2,4,3,3
+EMP0521,Division 2,15.6,Blue collar,Operator,Morning,Yes,3,3,4,4,2,4,3,3,3,1,5,3,4,4,3,5,4,3,3,3,4,4,3,2,2,2,4,3,2,3,3,3
+EMP0522,Division 2,7.6,Blue collar,Operator,Night,Yes,3,3,3,4,4,2,4,3,2,1,4,3,4,4,4,5,2,2,3,3,3,2,2,4,3,3,3,3,2,3,4,3
+EMP0523,Division 2,4.6,Blue collar,Operator,Morning,Yes,2,2,4,1,3,3,4,4,3,3,5,5,3,5,4,4,4,3,2,3,4,4,2,2,2,2,3,4,3,3,2,3
+EMP0524,Division 2,11.6,White collar,Specialist,Night,Yes,2,3,4,3,2,3,3,3,4,3,4,3,4,5,2,3,3,3,2,3,4,2,2,3,2,4,2,3,3,4,4,4
+EMP0525,Division 2,7.0,White collar,Engineer,Morning,Yes,1,2,3,2,4,3,3,4,4,3,4,3,4,3,5,3,4,2,3,3,2,4,3,3,2,2,2,3,2,4,3,3
+EMP0526,Division 2,13.2,Blue collar,Operator,Afternoon,Yes,2,1,3,2,3,4,3,1,3,1,4,2,5,4,3,3,3,3,3,4,4,3,1,3,3,4,3,3,1,4,2,2
+EMP0527,Division 2,16.6,Blue collar,Operator,Night,No,3,3,4,3,2,3,2,3,3,3,4,4,5,4,3,4,2,3,3,4,4,2,3,3,2,3,3,3,3,3,4,4
+EMP0528,Division 2,6.6,Blue collar,Senior operator,Afternoon,No,2,3,2,2,3,2,2,3,3,2,3,2,4,3,4,3,2,3,3,3,4,4,3,2,2,4,4,3,2,4,4,2
+EMP0529,Division 2,16.2,Blue collar,Operator,Night,Yes,3,2,3,3,3,3,4,4,4,1,4,3,4,4,4,4,2,3,3,2,4,3,4,4,2,2,4,3,1,3,4,4
+EMP0530,Division 2,13.4,Blue collar,Operator,Night,Yes,3,3,4,3,4,2,3,4,3,3,4,4,3,4,5,3,3,2,3,3,3,2,2,3,3,3,3,2,3,4,4,4
+EMP0531,Division 2,5.2,White collar,Specialist,Night,Yes,2,4,3,3,2,4,2,3,3,2,4,4,4,4,2,4,4,4,2,3,4,2,2,3,2,2,3,4,2,4,4,4
+EMP0532,Division 2,4.1,Blue collar,Team lead,Day (office),Yes,3,2,4,2,3,3,2,4,2,2,5,3,4,5,4,4,3,3,3,3,3,3,3,3,3,3,2,3,3,3,2,3
+EMP0533,Division 2,3.8,Blue collar,Operator,Afternoon,Yes,1,2,3,2,2,4,2,4,3,2,4,3,4,3,4,5,3,3,2,4,2,2,3,2,4,3,3,4,2,4,3,3
+EMP0534,Division 2,3.2,Blue collar,Operator,Morning,Yes,2,2,4,2,2,4,3,3,3,1,3,3,4,3,3,5,2,3,3,2,3,2,2,3,3,4,2,4,3,5,3,3
+EMP0535,Division 2,15.3,White collar,Specialist,Morning,Yes,2,2,4,2,4,4,4,5,3,3,4,3,4,4,4,5,3,3,3,2,4,3,3,4,3,3,3,3,1,4,4,3
+EMP0536,Division 2,6.7,White collar,Specialist,Morning,Yes,2,2,4,4,2,3,3,3,2,2,5,4,6,5,4,5,3,3,2,3,3,2,2,2,2,3,4,3,2,4,4,3
+EMP0537,Division 2,20.0,Blue collar,Operator,Morning,Yes,3,3,3,2,3,3,1,3,3,2,5,3,4,3,2,4,2,2,2,4,5,3,3,4,5,2,4,2,2,4,3,3
+EMP0538,Division 2,4.7,Blue collar,Operator,Afternoon,No,3,1,4,2,1,2,3,4,3,3,4,3,4,4,5,3,3,3,5,2,4,4,1,2,3,3,3,3,4,4,4,3
+EMP0539,Division 2,5.4,Blue collar,Operator,Morning,Yes,3,1,4,3,2,3,3,3,3,1,3,2,3,4,2,3,3,4,3,2,4,3,3,2,3,2,3,3,3,3,2,2
+EMP0540,Division 2,10.6,Blue collar,Operator,Morning,No,3,2,3,3,3,3,3,3,3,2,5,5,4,4,3,2,1,4,3,4,3,3,2,3,4,3,2,3,3,4,3,4
+EMP0541,Division 2,19.4,Blue collar,Operator,Morning,No,2,2,2,2,2,3,2,4,4,2,3,4,4,4,3,3,4,3,4,3,4,5,4,4,3,3,2,4,3,3,2,3
+EMP0542,Division 2,5.2,Blue collar,Operator,Night,No,2,3,4,4,3,2,3,3,3,2,3,4,4,3,5,4,3,3,3,3,3,2,4,1,3,2,2,2,5,3,2,3
+EMP0543,Division 2,12.5,Blue collar,Senior operator,Afternoon,No,3,4,3,3,2,2,3,2,2,2,2,5,5,2,3,3,3,5,3,4,4,4,3,3,3,3,2,2,2,4,4,2
+EMP0544,Division 2,7.6,Blue collar,Senior operator,Afternoon,Yes,2,2,3,2,3,3,3,3,4,3,4,3,3,3,4,3,3,4,3,3,4,4,4,3,3,2,3,3,3,4,4,2
+EMP0545,Division 2,10.6,Blue collar,Operator,Night,Yes,1,3,3,2,4,4,3,2,4,2,3,3,3,3,5,4,2,3,2,3,4,4,3,3,3,2,3,3,3,3,3,4
+EMP0546,Division 2,4.3,White collar,Engineer,Morning,Yes,3,2,4,2,2,4,3,4,4,2,5,2,4,4,3,3,3,3,4,4,5,4,2,3,3,3,3,3,3,3,3,3
+EMP0547,Division 2,11.7,Blue collar,Operator,Day (office),No,3,3,4,3,3,3,3,3,4,3,2,6,4,4,3,3,3,4,3,2,3,3,4,2,3,3,2,2,4,4,2,4
+EMP0548,Division 2,6.3,Blue collar,Operator,Afternoon,No,3,2,5,2,3,3,4,4,3,4,4,3,4,3,3,4,3,2,3,2,3,3,3,2,2,3,2,3,2,3,2,3
+EMP0549,Division 2,5.6,Blue collar,Team lead,Morning,No,3,2,4,1,3,3,3,4,4,2,4,4,5,3,5,3,4,4,2,3,4,4,3,3,3,2,3,2,2,4,2,1
+EMP0550,Division 2,7.4,Blue collar,Team lead,Night,Yes,3,2,3,3,3,3,3,4,3,2,4,3,3,4,4,3,3,3,2,4,3,4,3,2,2,3,3,2,3,5,3,4
+EMP0551,Division 2,11.1,Blue collar,Operator,Night,No,3,3,4,2,3,3,4,2,3,3,3,4,3,5,5,5,4,3,4,3,3,4,3,3,2,3,3,3,2,4,4,4
+EMP0552,Division 2,6.8,Blue collar,Operator,Afternoon,Yes,2,1,3,4,2,4,3,3,3,1,2,5,4,4,4,3,3,3,3,4,4,3,3,2,3,2,3,2,3,3,4,3
+EMP0553,Division 2,5.6,Blue collar,Operator,Night,Yes,3,1,4,2,3,3,4,4,3,2,4,4,4,4,3,5,2,3,3,2,3,3,2,2,4,4,4,3,3,3,2,3
+EMP0554,Division 2,7.0,Blue collar,Senior operator,Morning,No,3,2,4,2,4,2,2,2,3,2,3,3,4,2,4,5,3,4,2,3,4,3,3,3,4,1,3,3,2,4,3,2
+EMP0555,Division 2,6.8,Blue collar,Senior operator,Morning,Yes,3,3,3,3,3,3,3,4,3,1,4,3,4,3,3,3,3,3,2,4,2,4,3,1,1,3,4,4,2,3,2,4
+EMP0556,Division 2,10.5,Blue collar,Senior operator,Morning,No,3,3,4,2,3,3,3,3,3,2,5,2,3,5,3,3,4,3,4,2,4,4,3,3,3,3,4,3,3,2,1,2
+EMP0557,Division 2,5.8,White collar,Specialist,Morning,Yes,3,3,3,2,3,3,4,2,3,2,3,4,4,4,7,4,2,3,3,4,4,3,3,4,2,3,4,3,2,4,3,3
+EMP0558,Division 2,5.7,Blue collar,Operator,Morning,No,3,3,4,3,2,4,4,3,2,2,4,4,4,2,4,5,3,3,4,3,3,3,3,2,3,3,2,4,1,4,3,3
+EMP0559,Division 2,4.3,Blue collar,Senior operator,Day (office),Yes,1,2,3,4,3,4,2,3,3,2,3,4,3,4,4,3,4,2,3,5,3,2,2,4,3,3,3,3,2,4,3,3
+EMP0560,Division 2,10.9,Blue collar,Senior operator,Morning,No,3,1,3,3,2,4,3,4,1,2,3,3,3,4,3,4,3,3,3,2,2,4,2,3,3,3,3,4,3,4,4,4
+EMP0561,Division 2,8.3,White collar,Specialist,Afternoon,No,2,2,4,4,3,3,3,2,3,2,3,4,3,3,5,5,4,3,3,4,3,3,3,2,3,2,2,3,3,4,3,4
+EMP0562,Division 2,15.5,Blue collar,Operator,Afternoon,No,3,3,3,2,1,4,3,3,3,2,3,4,4,2,4,3,3,4,3,3,4,4,2,2,2,3,4,1,2,3,3,3
+EMP0563,Division 2,14.3,White collar,Specialist,Night,Yes,2,2,3,3,3,3,2,2,4,3,2,2,4,4,5,3,4,2,3,2,3,2,3,3,2,2,3,4,2,4,3,3
+EMP0564,Division 2,8.8,White collar,Specialist,Day (office),No,3,2,4,3,3,4,3,2,4,2,4,4,5,3,5,4,2,2,3,3,4,4,2,4,3,2,2,3,2,5,4,3
+EMP0565,Division 2,7.1,Blue collar,Senior operator,Night,Yes,3,3,4,3,2,4,3,2,2,3,4,6,4,3,2,4,2,2,3,3,3,3,2,2,3,3,3,3,1,3,3,2
+EMP0566,Division 2,7.6,Blue collar,Senior operator,Day (office),Yes,3,2,4,4,3,2,3,2,3,3,5,3,3,3,3,3,3,2,4,4,4,3,4,3,2,2,2,1,2,3,3,5
+EMP0567,Division 2,4.9,Blue collar,Senior operator,Night,Yes,3,3,4,2,2,4,2,3,2,3,2,4,6,3,3,3,2,4,3,4,3,4,3,3,2,2,2,2,1,3,3,4
+EMP0568,Division 2,4.3,White collar,Specialist,Day (office),No,3,4,2,2,2,3,2,4,4,3,4,5,4,4,3,4,3,3,3,4,3,3,2,3,3,2,3,2,3,3,3,3
+EMP0569,Division 2,3.9,Blue collar,Operator,Night,Yes,1,2,3,3,3,3,4,2,4,1,3,4,4,3,4,2,3,3,4,2,3,4,3,2,2,2,4,2,2,4,3,4
+EMP0570,Division 2,6.7,Blue collar,Senior operator,Morning,No,2,2,5,1,3,4,2,3,3,2,4,3,4,3,3,4,4,3,2,4,3,3,4,3,2,3,2,4,4,2,2,4
+EMP0571,Division 3,8.0,White collar,Supervisor,Afternoon,No,4,4,2,4,4,1,5,5,2,4,2,5,5,6,6,6,5,1,4,1,4,4,4,5,3,5,4,4,5,5,5,4
+EMP0572,Division 3,9.4,White collar,Specialist,Night,Yes,3,4,2,5,3,1,4,4,2,4,2,5,6,5,5,6,5,2,5,1,5,4,5,5,3,4,3,4,4,5,5,4
+EMP0573,Division 3,19.9,Blue collar,Senior operator,Night,No,4,4,2,4,4,1,5,4,1,5,2,6,5,6,5,6,5,1,4,2,4,3,5,5,4,5,3,5,4,5,5,4
+EMP0574,Division 3,6.5,Blue collar,Operator,Night,Yes,4,4,2,5,3,2,4,5,2,5,2,6,6,5,6,5,4,2,5,2,4,4,4,5,5,4,4,4,4,5,5,5
+EMP0575,Division 3,9.5,Blue collar,Operator,Night,No,4,5,2,5,4,2,5,4,2,4,3,6,6,5,6,5,4,1,5,2,4,4,4,5,5,5,3,4,5,4,5,4
+EMP0576,Division 3,7.4,White collar,Engineer,Day (office),Yes,4,4,3,4,5,2,5,5,2,3,2,5,6,5,6,6,4,2,4,2,5,5,4,4,4,5,3,3,4,4,5,5
+EMP0577,Division 3,17.1,Blue collar,Operator,Morning,Yes,4,5,2,4,4,1,3,5,1,4,2,5,6,5,6,5,3,2,4,3,5,4,4,4,4,4,5,4,4,4,4,5
+EMP0578,Division 3,0.8,Blue collar,Operator,Night,Yes,4,4,2,4,4,2,4,4,1,4,2,6,5,6,5,7,4,2,4,1,4,4,4,4,4,5,3,4,4,5,4,4
+EMP0579,Division 3,3.3,Blue collar,Operator,Morning,Yes,4,5,3,4,5,2,5,5,1,4,1,6,5,5,5,6,5,1,4,1,5,5,4,4,3,4,4,4,5,4,5,4
+EMP0580,Division 3,18.3,White collar,Engineer,Morning,Yes,4,4,2,4,4,2,4,5,1,5,2,6,6,6,5,5,5,2,4,1,5,5,4,5,4,4,5,4,4,4,4,5
+EMP0581,Division 3,4.7,Blue collar,Operator,Morning,Yes,3,4,2,5,3,2,4,5,2,4,2,6,6,5,5,5,5,1,4,1,5,2,4,3,5,3,3,5,4,5,4,4
+EMP0582,Division 3,16.8,Blue collar,Senior operator,Night,Yes,4,4,2,4,4,2,5,3,2,4,2,5,5,6,6,5,4,2,4,1,5,4,4,4,4,4,3,4,4,5,4,5
+EMP0583,Division 3,4.6,Blue collar,Team lead,Morning,Yes,4,4,1,4,4,2,4,5,2,4,1,6,5,6,6,6,4,2,4,2,4,4,4,5,4,5,4,5,5,4,4,5
+EMP0584,Division 3,6.3,Blue collar,Operator,Night,No,5,5,2,4,4,1,5,5,3,4,2,5,7,6,5,6,3,2,4,1,4,4,4,4,3,5,4,4,5,5,5,4
+EMP0585,Division 3,22.5,Blue collar,Senior operator,Afternoon,Yes,4,5,2,5,4,2,4,5,2,4,2,5,5,5,7,5,5,1,5,2,5,4,5,4,4,4,4,5,5,4,5,4
+EMP0586,Division 3,12.4,Blue collar,Operator,Morning,Yes,4,3,2,4,4,2,3,4,2,5,2,5,6,4,6,5,4,1,4,1,4,4,4,4,3,5,3,5,4,5,4,4
+EMP0587,Division 3,8.6,Blue collar,Operator,Night,Yes,4,4,3,5,4,2,5,4,1,4,1,5,5,6,6,5,4,1,4,1,4,4,4,4,5,5,5,3,4,5,5,4
+EMP0588,Division 3,10.6,Blue collar,Senior operator,Night,No,4,2,1,5,5,2,5,4,2,4,1,5,6,6,5,6,4,2,3,1,5,5,4,5,4,4,4,4,4,4,4,5
+EMP0589,Division 3,14.6,Blue collar,Senior operator,Night,No,5,4,2,4,4,1,5,4,2,4,2,6,6,5,6,6,4,1,4,2,4,5,5,4,3,4,4,4,5,4,4,5
+EMP0590,Division 3,8.2,Blue collar,Senior operator,Morning,No,5,5,2,4,5,2,3,4,2,5,1,5,4,5,6,5,4,2,4,1,4,5,4,4,5,4,4,4,4,5,4,4
+EMP0591,Division 3,11.2,Blue collar,Operator,Night,Yes,5,4,2,4,4,1,5,5,2,4,2,6,5,6,6,5,4,2,5,1,4,4,4,4,3,4,4,5,5,4,5,5
+EMP0592,Division 3,28.5,Blue collar,Team lead,Night,Yes,4,4,1,3,4,3,3,5,1,5,2,6,6,5,7,5,4,3,4,2,5,5,4,4,4,5,4,5,4,4,5,5
+EMP0593,Division 3,3.5,Blue collar,Operator,Afternoon,No,4,4,2,4,4,2,5,4,2,4,1,5,5,6,5,5,4,2,4,1,4,4,4,3,4,5,4,3,4,4,4,4
+EMP0594,Division 3,8.5,Blue collar,Operator,Morning,No,5,4,2,3,4,1,5,4,2,4,2,5,6,6,5,6,4,1,5,1,4,4,4,5,3,4,4,4,4,4,5,4
+EMP0595,Division 3,5.4,Blue collar,Operator,Afternoon,Yes,4,4,1,5,4,1,4,3,1,5,2,5,5,5,6,6,4,1,5,2,4,3,4,5,4,4,4,4,4,5,5,5
+EMP0596,Division 3,4.0,Blue collar,Senior operator,Night,Yes,4,4,2,5,3,2,5,5,1,5,1,5,6,6,5,6,4,2,4,2,5,5,4,4,3,3,5,4,4,5,4,4
+EMP0597,Division 3,8.4,Blue collar,Operator,Morning,Yes,4,5,2,4,4,1,4,5,3,3,2,5,5,7,6,5,4,2,4,2,4,4,5,4,3,5,5,4,4,5,5,5
+EMP0598,Division 3,4.0,White collar,Engineer,Morning,Yes,4,4,2,4,4,1,4,4,1,4,2,5,5,5,5,4,4,1,5,1,5,5,4,5,4,4,4,4,4,5,5,4
+EMP0599,Division 3,3.6,Blue collar,Senior operator,Night,No,5,4,2,4,5,1,4,4,2,4,1,6,5,5,6,6,3,1,4,2,4,4,3,5,4,4,5,5,5,5,4,5
+EMP0600,Division 3,7.1,Blue collar,Operator,Morning,Yes,4,3,2,4,5,2,5,5,2,5,2,6,7,6,5,5,4,2,4,1,5,4,5,4,4,3,3,5,5,5,5,4
+EMP0601,Division 3,10.9,Blue collar,Operator,Day (office),Yes,4,3,2,4,4,2,5,5,2,5,2,7,5,6,6,5,5,1,4,1,5,5,4,4,4,5,5,5,4,5,5,4
+EMP0602,Division 3,10.4,Blue collar,Operator,Morning,Yes,3,5,3,4,4,2,4,4,1,4,1,5,6,6,6,6,4,2,5,1,4,4,5,4,4,4,4,4,4,5,5,4
+EMP0603,Division 3,7.2,Blue collar,Operator,Afternoon,Yes,5,4,2,5,5,2,5,4,1,3,2,5,5,5,6,6,5,1,4,2,5,4,5,4,4,5,4,3,4,4,4,5
+EMP0604,Division 3,2.7,White collar,Specialist,Morning,Yes,5,4,1,4,4,2,4,4,2,4,2,5,7,4,5,5,5,2,4,2,4,4,5,4,4,4,4,5,5,5,5,4
+EMP0605,Division 3,2.5,Blue collar,Senior operator,Day (office),Yes,4,5,2,5,4,3,4,4,2,4,1,5,6,5,5,5,4,2,5,2,5,4,4,4,4,4,4,5,5,5,5,4
+EMP0606,Division 3,9.7,Blue collar,Operator,Night,No,4,4,1,5,4,2,4,4,1,4,2,5,6,5,5,5,4,2,5,2,5,5,4,4,3,4,4,5,4,4,3,4
+EMP0607,Division 3,4.8,White collar,Engineer,Day (office),Yes,4,4,2,5,4,2,5,4,2,4,2,6,6,6,4,6,4,1,3,2,4,4,4,4,4,4,5,5,4,5,4,4
+EMP0608,Division 3,8.8,Blue collar,Senior operator,Night,Yes,5,4,2,3,4,1,4,5,1,4,2,6,6,5,6,6,4,2,5,1,4,4,5,4,4,5,4,4,5,4,4,4
+EMP0609,Division 3,8.1,Blue collar,Operator,Morning,Yes,4,4,1,4,4,2,5,4,1,4,1,5,6,5,6,5,3,1,4,3,4,5,4,4,4,4,3,4,4,4,5,4
+EMP0610,Division 3,1.6,Blue collar,Senior operator,Morning,Yes,4,5,2,4,4,2,4,4,2,5,1,6,6,6,5,5,4,1,4,1,4,4,4,4,4,4,5,4,5,5,4,4
+EMP0611,Division 3,18.5,Blue collar,Operator,Afternoon,Yes,5,5,1,4,5,2,4,4,2,5,2,7,6,5,6,5,4,1,4,2,3,4,4,4,4,4,4,4,4,4,4,5
+EMP0612,Division 3,2.5,Blue collar,Operator,Afternoon,Yes,5,4,2,4,4,2,4,4,2,5,1,6,5,7,5,6,4,1,4,2,4,5,4,4,4,4,5,5,3,4,4,5
+EMP0613,Division 3,6.4,Blue collar,Team lead,Day (office),No,3,5,1,4,4,1,4,5,1,4,1,6,5,6,6,6,4,2,4,2,4,5,4,5,3,5,4,5,4,4,5,5
+EMP0614,Division 3,2.9,Blue collar,Senior operator,Afternoon,Yes,4,4,1,5,5,2,4,4,1,4,1,6,6,7,5,6,5,2,4,2,5,4,5,5,4,4,3,5,5,4,5,4
+EMP0615,Division 3,4.8,White collar,Engineer,Night,No,4,4,2,4,3,3,4,4,2,4,1,7,6,6,4,5,4,1,4,2,4,5,5,4,4,4,4,5,5,5,4,4
+EMP0616,Division 3,5.2,White collar,Engineer,Day (office),Yes,4,4,2,5,5,2,5,4,2,5,1,6,6,6,5,5,4,1,4,2,4,4,4,5,4,4,4,4,4,5,4,4
+EMP0617,Division 3,5.6,White collar,Engineer,Morning,Yes,3,3,2,3,4,2,4,5,2,5,2,5,5,7,5,6,5,2,4,3,4,4,4,4,4,5,4,5,5,4,5,5
+EMP0618,Division 3,6.6,White collar,Engineer,Night,Yes,3,5,2,4,4,2,4,4,2,4,2,6,6,5,6,5,4,2,4,2,4,5,5,5,4,4,4,3,5,4,4,5
+EMP0619,Division 3,21.0,Blue collar,Team lead,Afternoon,Yes,5,4,2,5,4,2,4,4,1,5,2,6,5,5,6,5,4,2,5,1,5,4,4,4,4,4,3,4,4,5,5,4
+EMP0620,Division 3,3.8,Blue collar,Team lead,Night,Yes,4,4,2,5,4,2,4,4,1,4,2,5,6,5,6,6,4,2,4,2,4,5,5,4,5,4,4,4,4,5,4,5
+EMP0621,Division 3,11.2,Blue collar,Operator,Morning,Yes,4,4,1,3,4,2,5,4,2,4,2,5,6,6,4,6,4,2,4,1,5,4,4,4,3,4,5,4,5,5,4,3
+EMP0622,Division 3,15.6,White collar,Engineer,Morning,Yes,4,3,2,4,5,2,4,5,2,5,1,6,5,5,6,5,4,2,5,2,5,5,5,4,4,5,4,4,3,4,3,5
+EMP0623,Division 3,10.5,Blue collar,Senior operator,Morning,Yes,4,4,2,5,4,2,5,5,2,4,2,5,6,6,6,5,4,1,4,2,4,4,4,5,5,4,4,5,5,5,5,4
+EMP0624,Division 3,17.6,Blue collar,Operator,Day (office),Yes,5,4,2,4,4,2,5,4,2,5,2,5,6,5,6,5,4,2,5,2,5,5,4,4,4,5,5,4,5,5,5,4
